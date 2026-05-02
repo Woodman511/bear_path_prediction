@@ -48,3 +48,4 @@ def propagate(matrix):
 
     np.set_printoptions(precision=3, suppress=True)
     print(current)
+    return current
