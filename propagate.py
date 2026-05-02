@@ -29,23 +29,24 @@ def propagate(matrix):
 
     # Each pass reads from `current`, writes into `next_grid`
     # so new fills never influence each other in the same wave
-    current = matrix.copy()
+    current = matrix.astype(float).copy()
+    filled = current != 0  # track which cells are original seeds
+
     while True:
         next_grid = current.copy()
         changed = False
 
         for i in range(current.shape[0]):
             for j in range(current.shape[1]):
-                if current[i, j] == 0:
+                if not filled[i, j]:  # only touch unfilled cells
                     val = equation(current, i, j)
                     if val > 0:
                         next_grid[i, j] = val
+                        filled[i, j] = True  # mark as filled, never touch again
                         changed = True
 
         current = next_grid
         if not changed:
             break
-
-    np.set_printoptions(precision=3, suppress=True)
-    print(current)
+            
     return current
