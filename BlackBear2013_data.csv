@@ -1,0 +1,492 @@
+﻿OBJECTID,Line_No,Bear_ID,Date,Time,Latitude,Longitude,Elevation__feet_,Temp__Deg_F_,Major_Activity,Video_file,Remarks
+1,51,Bear 15,"Thursday, June 27, 2013",6:01 PM,61.229235,-149.8882759,,72,Resting,,
+2,86,Bear 15,"Friday, June 28, 2013",12:01 AM,61.2301522,-149.8861457,,63,Resting,,
+3,122,Bear 15,"Friday, June 28, 2013",6:02 AM,61.2282931,-149.8892684,,66,Resting,,
+4,133,Bear 15,"Friday, June 28, 2013",8:20 AM,61.2294213,-149.8849528,,68,Locomotion,Bear 15 06-28-13 0820,In back of pick up investigating items; in cooler
+5,155,Bear 15,"Friday, June 28, 2013",12:01 PM,61.2284769,-149.8886185,,66,Resting,,
+6,184,Bear 15,"Friday, June 28, 2013",6:00 PM,61.2284618,-149.8452491,,68,Resting,,
+7,205,Bear 15,"Friday, June 28, 2013",9:30 PM,61.2266097,-149.8730451,,66,Locomotion,Bear 15 06-28-13 2130,walking/running through train depot
+8,220,Bear 15,"Saturday, June 29, 2013",12:00 AM,61.2216305,-149.8702028,,64,Locomotion,,Walking down social trail
+9,226,Bear 15,"Saturday, June 29, 2013",1:00 AM,61.2209022,-149.8749463,,64,Locomotion,Bear 15 06-29-13 0100,Walking through neighborhood at night� dark
+10,248,Bear 15,"Saturday, June 29, 2013",4:40 AM,61.2210843,-149.8726453,,66,Resting,Bear 15 06-29-13 0440,"In tree, overlooking RV lot"
+11,256,Bear 15,"Saturday, June 29, 2013",6:00 AM,61.2210148,-149.872893,,66,Resting,,Resting in cottonwood tree
+12,292,Bear 15,"Saturday, June 29, 2013",12:00 PM,61.2211527,-149.8725358,,70,Resting,,
+13,312,Bear 15,"Saturday, June 29, 2013",3:20 PM,61.2216399,-149.8697974,,77,Anthropogenic,Bear 15 06-29-13 1520,Digging through BP trashbag left in woods from cleanup crew
+14,313,Bear 15,"Saturday, June 29, 2013",3:30 PM,61.2216551,-149.8697906,,77,Locomotion,Bear 15 06-29-13 1530,"looking around in woods, hears plane and looks in that direction"
+15,328,Bear 15,"Saturday, June 29, 2013",6:00 PM,61.2210229,-149.8720754,,75,Resting,,
+16,337,Bear 15,"Saturday, June 29, 2013",7:30 PM,61.2211754,-149.8690262,,73,Anthropogenic,Bear 15 06-29-13 1930,Digging through trash next to tent
+17,355,Bear 15,"Saturday, June 29, 2013",10:30 PM,61.221686,-149.8689905,,72,Anthropogenic,Bear 15 06-29-13 2230,Eating peanuts from squirrel midden
+18,364,Bear 15,"Sunday, June 30, 2013",12:02 AM,61.2216277,-149.8688041,,68,Resting,,
+19,399,Bear 15,"Sunday, June 30, 2013",6:01 AM,61.2191582,-149.904993,,66,Locomotion,,Walking past house
+20,420,Bear 15,"Sunday, June 30, 2013",9:30 AM,61.1979819,-149.9346997,,64,Locomotion,Bear 15 06-30-13 0930,Running in someone's front yard to back of house.  Full view of neighbors
+21,435,Bear 15,"Sunday, June 30, 2013",12:00 PM,61.1926709,-149.9878444,,66,Resting,,
+22,452,Bear 15,"Sunday, June 30, 2013",2:51 PM,61.2027272,-150.0107567,,66,Locomotion,Bear 15 06-30-13 14:51,Walks by bike on Kincaid trail
+23,454,Bear 15,"Sunday, June 30, 2013",3:10 PM,61.2005202,-150.0239131,,64,Natural Food,Bear 15 06-30-13 15:10,Eating insects
+24,461,Bear 15,"Sunday, June 30, 2013",4:20 PM,61.1843686,-150.0261094,,66,Locomotion,Bear 15 06-30-13 1620,"Walking through forest, devils club/ferns, trail in sight"
+25,471,Bear 15,"Sunday, June 30, 2013",6:00 PM,61.180529,-150.0241294,,66,Resting,,Resting in cottonwood tree
+26,483,Bear 15,"Sunday, June 30, 2013",8:00 PM,61.1805488,-150.0241449,,66,Resting,Bear 15 06-30-13 2000,"High in tree, tongue stickin out andback paw in view. Some twitching, perhaps dreaming?"
+27,507,Bear 15,"Monday, July 01, 2013",12:02 AM,61.1695965,-150.0542096,,64,Resting,,
+28,543,Bear 15,"Monday, July 01, 2013",6:01 AM,61.1695389,-150.0547395,,63,Resting,,
+29,577,Bear 15,"Monday, July 01, 2013",12:01 PM,61.1622266,-150.0537593,,61,Locomotion,,Climbing cottonwood tree
+30,582,Bear 15,"Monday, July 01, 2013",12:51 PM,61.1542072,-150.0564689,,61,Anthropogenic,Bear 15 07-01-13 12:51,Investigates bear-resistant dumspter near Kincaid pavillion
+31,595,Bear 15,"Monday, July 01, 2013",3:00 PM,61.1580082,-150.0663361,,64,Anthropogenic,Bear 15 07-01-13 1500,Sniffing ground and then lifts head to watch biker pass by
+32,597,Bear 15,"Monday, July 01, 2013",3:20 PM,61.1629261,-150.0678618,,64,Natural Food,Bear 15 07-01-13 15:20,"Eating dandelions (Taraxacum officinale), lifts head to watch biker pass by"
+33,611,Bear 15,"Monday, July 01, 2013",6:01 PM,61.1987738,-150.0200583,,63,Locomotion,,Walking down Coastal Trail
+34,620,Bear 15,"Monday, July 01, 2013",7:30 PM,61.2035795,-150.0161007,,61,Locomotion,Bear 15 07-01-13 1930,Walking along coastal trail
+35,647,Bear 15,"Tuesday, July 02, 2013",12:01 AM,61.1980771,-149.9583692,,66,Resting,,Resting in spruce tree
+36,680,Bear 15,"Tuesday, July 02, 2013",6:00 AM,61.1979479,-149.9585571,,73,Resting,,Resting in spruce tree
+37,686,Bear 15,"Tuesday, July 02, 2013",7:41 AM,61.1985766,-149.960329,,63,Anthropogenic,Bear 15 07-02-13 07:41,Dumping over trash can
+38,697,Bear 15,"Tuesday, July 02, 2013",10:30 AM,61.2042653,-149.9305191,,61,Other,Bear 15 07-02-13 1030,"Grooming, licking paws"
+39,706,Bear 15,"Tuesday, July 02, 2013",12:00 PM,61.2007908,-149.9299973,,64,Resting,,Resting in spruce tree
+40,742,Bear 15,"Tuesday, July 02, 2013",6:00 PM,61.1924946,-149.9244586,,68,Locomotion,,Walking up to shed and yard
+41,757,Bear 15,"Tuesday, July 02, 2013",8:30 PM,61.1938337,-149.9280021,,68,Locomotion,Bear 15 07-02-13 2030,Walking down railroad tracks
+42,762,Bear 15,"Tuesday, July 02, 2013",9:20 PM,61.2002286,-149.9311402,,66,Anthropogenic,Bear 15 07-02-13 2120,Eating birdseed off porch and overturned birdfeeder
+43,771,Bear 15,"Tuesday, July 02, 2013",11:00 PM,61.2015573,-149.932721,,63,Resting,Bear 15 07-02-13 2300,"Sleeping in hemlock tree, lifts head, yawning"
+44,777,Bear 15,"Wednesday, July 03, 2013",12:01 AM,61.2016071,-149.9325973,,63,Locomotion,,Climbing down spruce tree
+45,813,Bear 15,"Wednesday, July 03, 2013",6:01 AM,61.1998962,-149.9559894,,59,Locomotion,,Walking in front of closed garage doors
+46,819,Bear 15,"Wednesday, July 03, 2013",7:01 AM,61.2102175,-149.9178449,,61,Anthropogenic,Bear 15 07-03-13 07:01,Walks up porch steps investigates bag of fertilizer
+47,849,Bear 15,"Wednesday, July 03, 2013",12:01 PM,61.2086261,-149.9167931,,64,Resting,,Resting in spruce tree
+48,865,Bear 15,"Wednesday, July 03, 2013",2:40 PM,61.209847,-149.9147198,,75,Anthropogenic,Bear 15 07-03-13 1440,"in yard, checking out sheep ornament"
+49,884,Bear 15,"Wednesday, July 03, 2013",6:00 PM,61.2108435,-149.9201318,,68,Resting,,Resting in cottonwood tree
+50,894,Bear 15,"Wednesday, July 03, 2013",7:40 PM,61.2108375,-149.9202615,,68,Locomotion,Bear 15 07-03-13 1940,Descending a tree
+51,900,Bear 15,"Wednesday, July 03, 2013",8:40 PM,61.2087347,-149.9188573,,68,Anthropogenic,Bear 15 07-03-13 2040,Pulling apart suet feeder
+52,918,Bear 15,"Thursday, July 04, 2013",12:02 AM,61.2189966,-149.9045753,,66,Resting,,Resting in cottonwood tree
+53,947,Bear 15,"Thursday, July 04, 2013",6:02 AM,61.2178554,-149.9046653,,61,Locomotion,,Walking in alley
+54,982,Bear 15,"Thursday, July 04, 2013",12:01 PM,61.2041038,-149.8887696,,61,Anthropogenic,Bear 15 07-04-13 1201,Looking in box at homeless camp
+55,1015,Bear 15,"Thursday, July 04, 2013",6:00 PM,61.2024,-149.8908035,,63,Resting,,Resting in spruce tree
+56,1050,Bear 15,"Friday, July 05, 2013",12:00 AM,61.2024491,-149.8907391,,68,Resting,,Resting in cottonwood tree
+57,1086,Bear 15,"Friday, July 05, 2013",6:01 AM,61.2026632,-149.8914835,,61,Locomotion,,Climbs wooden fence in back yard
+58,1121,Bear 15,"Friday, July 05, 2013",12:03 PM,61.2023448,-149.9096947,,66,Resting,,
+59,1151,Bear 15,"Friday, July 05, 2013",6:00 PM,61.2032847,-149.9206801,,68,Anthropogenic,Bear 15 07-05-13 1800,Pulling trash from non bear-resistant trash can
+60,1187,Bear 15,"Saturday, July 06, 2013",12:02 AM,61.2031681,-149.9189271,,61,Resting,,
+61,1221,Bear 15,"Saturday, July 06, 2013",6:01 AM,61.2034961,-149.9231735,,59,Anthropogenic,,Pulls trash out of non-bear resistant trash can
+62,1236,Bear 15,"Saturday, July 06, 2013",8:30 AM,61.2038342,-149.9128132,,59,Locomotion,Bear 15 07-06-13 0830,Bear walking alongside road
+63,1269,Bear 15,"Saturday, July 06, 2013",4:31 PM,61.2043796,-149.8990964,,68,Anthropogenic,Bear 15 07-06-13 1631,Eating birdseed while people watch in background
+64,1274,Bear 15,"Saturday, July 06, 2013",5:20 PM,61.2037473,-149.8857063,,66,Anthropogenic,Bear 15 07-06-13 1720,investigates bag of jerky left on trail in woods
+65,1278,Bear 15,"Saturday, July 06, 2013",6:02 PM,61.1995124,-149.8666221,,68,Anthropogenic,,Eating trash drug into woods
+66,1313,Bear 15,"Sunday, July 07, 2013",12:01 AM,61.199738,-149.8587338,,64,Resting,,Resting in spruce tree
+67,1349,Bear 15,"Sunday, July 07, 2013",6:02 AM,61.2002134,-149.86042,,61,Resting,,Resting in spruce tree
+68,1370,Bear 15,"Sunday, July 07, 2013",9:31 AM,61.2170985,-149.8265885,,63,Locomotion,Bear 15 07-07-13 09:31,Running across major highway intersection
+69,1377,Bear 15,"Sunday, July 07, 2013",10:50 AM,61.2303308,-149.8120607,,66,Anthropogenic,Bear 15 07-07-13 10:50,In trash eating Kellogs corn pops cereal
+70,1384,Bear 15,"Sunday, July 07, 2013",12:00 PM,61.2370381,-149.8070625,,68,Resting,,Resting in cottonwood tree
+71,1420,Bear 15,"Sunday, July 07, 2013",6:00 PM,61.2369883,-149.8068519,,91,Locomotion,,Walking down driveway
+72,1437,Bear 15,"Sunday, July 07, 2013",9:00 PM,61.2679322,-149.7608284,,68,Locomotion,Bear 15 07-07-13 2100,Walking while chewing on grass
+73,1441,Bear 15,"Sunday, July 07, 2013",9:40 PM,61.2743507,-149.7788833,,61,Natural Food,Bear 15 07-07-13 2140,Eating grass
+74,1455,Bear 15,"Monday, July 08, 2013",12:00 AM,61.2804919,-149.8244403,,59,Resting,,
+75,1482,Bear 15,"Monday, July 08, 2013",4:40 AM,61.2775177,-149.8404613,,57,Natural Food,Bear 15 07-08-13 0440,Eating water dragon (Capa calluspulustres)
+76,1490,Bear 15,"Monday, July 08, 2013",6:00 AM,61.2720133,-149.8461022,,57,Natural Food,,Feeding on crowberry berries (Empetrum nigrum)
+77,1526,Bear 15,"Monday, July 08, 2013",12:01 PM,61.2588768,-149.829187,,63,Resting,,Resting in cottonwood tree
+78,1557,Bear 15,"Monday, July 08, 2013",5:10 PM,61.2528107,-149.8521421,,79,Natural Food,Bear 15 07-08-13 1710,Eating dandelions (Taraxacum officinale)
+79,1562,Bear 15,"Monday, July 08, 2013",6:00 PM,61.2513993,-149.8582294,,75,Natural Food,,Foraging on white clover (Trifolium repens)
+80,1597,Bear 15,"Tuesday, July 09, 2013",12:01 AM,61.228297,-149.8454616,,63,Resting,,
+81,1617,Bear 15,"Tuesday, July 09, 2013",12:00 PM,61.2236438,-149.8741866,,68,Resting,,
+82,1652,Bear 15,"Tuesday, July 09, 2013",6:01 PM,61.2236093,-149.8742629,,81,Resting,,
+83,1678,Bear 15,"Wednesday, July 10, 2013",12:00 AM,61.2083184,-149.9108871,,63,Locomotion,,Walking down street
+84,1731,Bear 15,"Wednesday, July 10, 2013",12:00 PM,61.2039024,-149.9239834,,72,Anthropogenic,Bear 15 07-10-13 1200,Eating bird seed from suet feeder
+85,1766,Bear 15,"Wednesday, July 10, 2013",6:01 PM,61.1948005,-149.926524,,79,Anthropogenic,,Raiding squirrel midden in spruce tree
+86,1785,Bear 15,"Wednesday, July 10, 2013",10:10 PM,61.1949096,-149.9261056,,70,Anthropogenic,Bear 15 07-10-13 2210,Eating peanuts on ground fallen from squirrel midden
+87,1796,Bear 15,"Thursday, July 11, 2013",12:00 AM,61.1945944,-149.9256347,,66,Locomotion,,Stand and look
+88,1825,Bear 15,"Thursday, July 11, 2013",4:50 AM,61.194962,-149.9261657,,64,Resting,Bear 15 07-11-13 0450,"in tree, looking out and yawning (tonque out)"
+89,1832,Bear 15,"Thursday, July 11, 2013",6:01 AM,61.1949787,-149.9261708,,66,Anthropogenic,Bear 15 07-11-13 0601,Raiding squirrel midden in spruce tree
+90,1845,Bear 15,"Thursday, July 11, 2013",8:10 AM,61.193687,-149.9250276,,66,Natural Food,Bear 15 07-11-13 0810,drinking water from stream
+91,1868,Bear 15,"Thursday, July 11, 2013",12:00 PM,61.1950097,-149.9264952,,73,Resting,,Resting in spruce tree
+92,1878,Bear 15,"Thursday, July 11, 2013",1:40 PM,61.1948368,-149.9260624,,77,Resting,Bear 15 07-11-13 1340,"Sleeping in tree with tongue hanging out, mouth twitching, good shot of canines "
+93,1892,Bear 15,"Thursday, July 11, 2013",4:00 PM,61.1949202,-149.9261911,,82,Anthropogenic,Bear 15 07-11-13 1600,Squirrel midden
+94,1904,Bear 15,"Thursday, July 11, 2013",6:00 PM,61.1949356,-149.9261818,,79,Anthropogenic,,Raiding squirrel midden in spruce tree
+95,1937,Bear 15,"Friday, July 12, 2013",12:00 AM,61.1882698,-149.941237,,64,Anthropogenic,Bear 15 07-12-13 0000,Eating loaf of bread
+96,1970,Bear 15,"Friday, July 12, 2013",6:01 AM,61.1885036,-149.9403665,,63,Resting,,
+97,1974,Bear 15,"Friday, July 12, 2013",6:40 AM,61.1877583,-149.9373144,,61,Locomotion,Bear 15 07-12-13 0640,Bear standing to look over fence
+98,2006,Bear 15,"Friday, July 12, 2013",12:01 PM,61.2029864,-149.9366276,,70,Resting,,Resting in cottonwood tree
+99,2045,Bear 15,"Friday, July 12, 2013",6:40 PM,61.1981914,-149.9587709,,77,Locomotion,Bear 15 07-12-13 1840,Climbing spruce tree
+100,2077,Bear 15,"Saturday, July 13, 2013",12:01 AM,61.1980338,-149.9587528,,75,Resting,,Resting in spruce tree
+101,2110,Bear 15,"Saturday, July 13, 2013",6:00 AM,61.1984135,-149.9581052,,73,Anthropogenic,,Investigating trash cans and potting soil
+102,2146,Bear 15,"Saturday, July 13, 2013",12:01 PM,61.2009872,-149.911706,,70,Anthropogenic,,Eating a twinki
+103,2148,Bear 15,"Saturday, July 13, 2013",12:20 PM,61.2010174,-149.9118448,,72,Natural Food,Bear 15 07-13-13 1220,Eating a fish
+104,2178,Bear 15,"Saturday, July 13, 2013",6:01 PM,61.2056447,-149.9021658,,70,Locomotion,,Stand and look
+105,2181,Bear 15,"Saturday, July 13, 2013",6:31 PM,61.2063923,-149.9039378,,73,Locomotion,Bear 15 07-13-13 1830,"Looking around in back yard, person watching from back deck"
+106,2182,Bear 15,"Saturday, July 13, 2013",6:40 PM,61.2066397,-149.9063041,,73,Anthropogenic,Bear 15 07-13-13 1840,"Eating from turned over trash, in park"
+107,2200,Bear 15,"Saturday, July 13, 2013",10:00 PM,61.2026958,-149.8891714,,70,Anthropogenic,Bear 15 07-13-13 2200,"Rummaging through tent, checking out Grand Theft Auto game case"
+108,2212,Bear 15,"Sunday, July 14, 2013",12:00 AM,61.2008867,-149.878984,,66,Resting,,Resting in spruce tree
+109,2246,Bear 15,"Sunday, July 14, 2013",6:01 AM,61.2013531,-149.8768196,,63,Anthropogenic,,Eating trash drug into woods
+110,2251,Bear 15,"Sunday, July 14, 2013",7:00 AM,61.2003376,-149.8808868,,63,Anthropogenic,Bear 15 07-14-13 0700,"Trash, eating HaaganDaz ice cream"
+111,2280,Bear 15,"Sunday, July 14, 2013",12:01 PM,61.2000323,-149.8619552,,66,Resting,Bear 15 07-14-13 12:01,"Being attacked by mosquitos while napping, scratches nose with forepaw"
+112,2280,Bear 15,"Sunday, July 14, 2013",12:01 PM,61.2000323,-149.8619552,,66,Resting,,
+113,2297,Bear 15,"Sunday, July 14, 2013",4:11 PM,61.199583,-149.8650095,,72,Natural Food,Bear 15 07-14-13 16:11,Chewing on bone
+114,2308,Bear 15,"Sunday, July 14, 2013",6:00 PM,61.2012802,-149.8809867,,72,Resting,,Resting in cottonwood tree
+115,2309,Bear 15,"Sunday, July 14, 2013",6:10 PM,61.2013637,-149.8809114,,72,Resting,Bear 15 07-14-13 1810,"Resting in tree, head between forepaws"
+116,2325,Bear 15,"Sunday, July 14, 2013",9:00 PM,61.2061239,-149.8894633,,68,Anthropogenic,Bear 15 07-14-13 2100,"checking out porch, walking up steps"
+117,2327,Bear 15,"Sunday, July 14, 2013",9:20 PM,61.2038762,-149.9042102,,66,Locomotion,Bear 15 07-14-13 2120,"Walking across road, then sprinting into woods"
+118,2340,Bear 15,"Monday, July 15, 2013",12:01 AM,61.2020594,-149.9101846,,68,Resting,,Resting in cottonwood tree
+119,2371,Bear 15,"Monday, July 15, 2013",5:40 AM,61.2025458,-149.9094429,,64,Locomotion,Bear 15 07-15-13 0540,Walking in forest with vocalizations (growling noises)
+120,2373,Bear 15,"Monday, July 15, 2013",6:00 AM,61.202513,-149.9084314,,64,Locomotion,,Walking in forest floor
+121,2375,Bear 15,"Monday, July 15, 2013",6:20 AM,61.2029039,-149.9087674,,64,Locomotion,Bear 15 07-15-13 0620,Stalking and chasing geese
+122,2387,Bear 15,"Monday, July 15, 2013",8:21 AM,61.2034397,-149.9231871,,66,Anthropogenic,Bear 15 07-15-13 08:21,"Eating trash in driveway while a women passes by on street, sees bear and starts running. Don't run from bears!!"
+123,2409,Bear 15,"Monday, July 15, 2013",12:00 PM,61.2032022,-149.9368429,,68,Resting,,Resting in cottonwood tree
+124,2445,Bear 15,"Monday, July 15, 2013",6:00 PM,61.1949992,-149.9262436,,72,Anthropogenic,,Raiding squirrel midden in spruce tree
+125,2447,Bear 15,"Monday, July 15, 2013",6:20 PM,61.194758,-149.9262902,,72,Anthropogenic,Bear 15 07-15-13 18:20,Eating peanuts out of dish left on porch
+126,2481,Bear 15,"Tuesday, July 16, 2013",12:00 AM,61.2034288,-149.9199134,,68,Resting,,
+127,2496,Bear 15,"Tuesday, July 16, 2013",6:06 AM,61.2035224,-149.9223,,66,Locomotion,,Walking through brush
+128,2526,Bear 15,"Tuesday, July 16, 2013",12:00 PM,61.2034497,-149.9199048,,75,Resting,,Resting in cottonwood tree
+129,2560,Bear 15,"Tuesday, July 16, 2013",6:01 PM,61.2034826,-149.9192423,,72,Resting,,
+130,2603,Bear 15,"Wednesday, July 17, 2013",6:01 AM,61.2022296,-149.9172087,,66,Anthropogenic,Bear 15 07-17-13 0601,Licking the inside of a Burger King cup
+131,2629,Bear 15,"Wednesday, July 17, 2013",10:20 AM,61.2012865,-149.9113855,,73,Natural Food,Bear 15 07-17-13 1020,"Eating unripe black currant berries (Ribes hudsoniamum), then goes into freshly dug den"
+132,2636,Bear 15,"Wednesday, July 17, 2013",11:31 AM,61.2025922,-149.9067446,,75,Anthropogenic,Bear 15 07-17-13 11:31,Dragging bag of livestock feed
+133,2639,Bear 15,"Wednesday, July 17, 2013",12:00 PM,61.2008821,-149.905559,,72,Anthropogenic,Bear 15 07-17-13 1200,Eating discarded fish on lawn
+134,2674,Bear 15,"Wednesday, July 17, 2013",6:00 PM,61.2065611,-149.9059796,,79,Anthropogenic,,Eating trash on lawn
+135,2706,Bear 15,"Thursday, July 18, 2013",12:00 AM,61.2093971,-149.9141777,,70,Resting,,Resting in cottonwood tree
+136,2728,Bear 15,"Thursday, July 18, 2013",6:01 AM,61.2111637,-149.9176733,,68,Anthropogenic,,Eating trash in driveway
+137,2730,Bear 15,"Thursday, July 18, 2013",6:20 AM,61.2123209,-149.9173651,,66,Locomotion,Bear 15 07-18-13 0620,Walking along railroad tracks during sunrise
+138,2782,Bear 15,"Thursday, July 18, 2013",6:01 PM,61.2317325,-149.8351986,,75,Locomotion,,Walking through brush
+139,2796,Bear 15,"Thursday, July 18, 2013",8:20 PM,61.2540495,-149.8532862,,77,Natural Food,Bear 15 07-18-13 2020,Eating dandelions (Taraxacum officinale) and horsetail (Equisetum spp)
+140,2802,Bear 15,"Thursday, July 18, 2013",9:20 PM,61.2574286,-149.8632353,,73,Natural Food,Bear 15 07-18-13 2120,Eating green devil's club berries (Oplopanax horridus)
+141,2804,Bear 15,"Thursday, July 18, 2013",9:40 PM,61.2599123,-149.8657251,,72,Natural Food,Bear 15 07-18-13 2140,"Digging/ scratching dead tree, insects?"
+142,2818,Bear 15,"Friday, July 19, 2013",12:01 AM,61.2667975,-149.8614746,,70,Locomotion,,Walking
+143,2851,Bear 15,"Friday, July 19, 2013",6:01 AM,61.2671328,-149.86168,,68,Resting,,
+144,2886,Bear 15,"Friday, July 19, 2013",12:01 PM,61.258828,-149.8293278,,77,Resting,Bear 15 07-19-13 1201,Resting in cottonwood tree
+145,2910,Bear 15,"Friday, July 19, 2013",6:01 PM,61.2590646,-149.8293215,,75,Resting,,Resting in cottonwood tree
+146,2945,Bear 15,"Saturday, July 20, 2013",12:00 AM,61.2538738,-149.8600312,,64,Resting,,
+147,2981,Bear 15,"Saturday, July 20, 2013",6:00 AM,61.2505366,-149.8679164,,63,Resting,,
+148,3017,Bear 15,"Saturday, July 20, 2013",12:00 PM,61.2380639,-149.8774185,,82,Resting,,Resting in cottonwood tree
+149,3052,Bear 15,"Saturday, July 20, 2013",6:00 PM,61.2565893,-149.8760739,,77,Resting,,
+150,3063,Bear 15,"Saturday, July 20, 2013",9:00 PM,61.2589815,-149.8727189,,70,Natural Food,Bear 15 07-20-13 2100,"Scratching wood, looking for insects."
+151,3081,Bear 15,"Sunday, July 21, 2013",12:02 AM,61.2664462,-149.8545507,,72,Resting,,
+152,3105,Bear 15,"Sunday, July 21, 2013",6:01 AM,61.2709561,-149.8451864,,55,Natural Food,Bear 15 07-21-13 0600,Foraging for crowberry berries (Empetrum nigrum)
+153,3113,Bear 15,"Sunday, July 21, 2013",7:20 AM,61.2742677,-149.845913,,57,Natural Food,Bear 15 07-21-13 0720,Eating black currant berries (Ribes hudsoniamum)
+154,3126,Bear 15,"Sunday, July 21, 2013",9:30 AM,61.278005,-149.8411336,,73,Locomotion,Bear 15 07-21-13 0930,"Sniffing ground, continues investigating rest of area."
+155,3132,Bear 15,"Sunday, July 21, 2013",10:30 AM,61.2727465,-149.8340911,,70,Locomotion,Bear 15 07-21-13 1030,Crossing road while chewing on mouthful of grass.
+156,3141,Bear 15,"Sunday, July 21, 2013",12:00 PM,61.2590668,-149.8282729,,84,Resting,,
+157,3184,Bear 15,"Sunday, July 21, 2013",8:00 PM,61.2579417,-149.8273206,,77,Natural Food,Bear 15 07-21-13 2000,Eating red elderberries (Sambucus racemosa)
+158,3192,Bear 15,"Sunday, July 21, 2013",9:31 PM,61.2545233,-149.8342421,,75,Other,Bear 15 07-21-13 21:31,Digging den?
+159,3203,Bear 15,"Monday, July 22, 2013",12:01 AM,61.2592323,-149.8290312,,66,Resting,,
+160,3230,Bear 15,"Monday, July 22, 2013",6:00 AM,61.2592546,-149.8291023,,63,Resting,,
+161,3253,Bear 15,"Monday, July 22, 2013",12:00 PM,61.254218,-149.8525773,,86,Natural Food,Bear 15 07-22-13 1200,Foraging on horse tail (Equiseum spp.)
+162,3285,Bear 15,"Monday, July 22, 2013",6:01 PM,61.2526512,-149.8614265,,86,Unknown,,No video
+163,3353,Bear 15,"Tuesday, July 23, 2013",6:00 AM,61.2280489,-149.8664138,,66,Unknown,,No video
+164,3389,Bear 15,"Tuesday, July 23, 2013",12:00 PM,61.227566,-149.8693461,,79,Unknown,,No video
+165,3424,Bear 15,"Tuesday, July 23, 2013",6:01 PM,61.2281591,-149.869689,,81,Unknown,,No video
+166,3457,Bear 15,"Wednesday, July 24, 2013",12:01 AM,61.2316394,-149.8252946,,66,Unknown,,No video
+167,3493,Bear 15,"Wednesday, July 24, 2013",6:00 AM,61.2279871,-149.8311514,,61,Unknown,,No video
+168,3528,Bear 15,"Wednesday, July 24, 2013",12:01 PM,61.2281198,-149.8455411,,81,Unknown,,No video
+169,3557,Bear 15,"Thursday, July 25, 2013",12:01 AM,61.22118,-149.870998,,70,Unknown,,No video
+170,3591,Bear 15,"Thursday, July 25, 2013",6:00 AM,61.2131535,-149.8790942,,66,Unknown,,No video
+171,3626,Bear 15,"Thursday, July 25, 2013",12:02 PM,61.2005926,-149.880296,,73,Unknown,,No video
+172,3651,Bear 15,"Thursday, July 25, 2013",6:01 PM,61.200851,-149.8782404,,77,Unknown,,No video
+173,3683,Bear 15,"Friday, July 26, 2013",12:01 AM,61.2007857,-149.8803957,,73,Unknown,,No video
+174,3731,Bear 15,"Friday, July 26, 2013",12:02 PM,61.2021205,-149.9100244,,72,Unknown,,No video
+175,3764,Bear 15,"Friday, July 26, 2013",6:00 PM,61.2026057,-149.9065979,,79,Unknown,,No video
+176,3799,Bear 15,"Saturday, July 27, 2013",12:00 AM,61.2035014,-149.9363321,,70,Unknown,,No video
+177,3820,Bear 15,"Saturday, July 27, 2013",5:59 AM,61.2032958,-149.9399183,,70,Unknown,,No video
+178,3851,Bear 15,"Saturday, July 27, 2013",12:01 PM,61.2032031,-149.9363371,,73,Unknown,,No video
+179,3885,Bear 15,"Saturday, July 27, 2013",6:01 PM,61.2032626,-149.9370225,,77,Unknown,,No video
+180,3921,Bear 15,"Sunday, July 28, 2013",12:00 AM,61.1944866,-149.9256593,,68,Unknown,,No video
+181,3954,Bear 15,"Sunday, July 28, 2013",6:01 AM,61.1934992,-149.9218176,,70,Unknown,,No video
+182,3990,Bear 15,"Sunday, July 28, 2013",12:03 PM,61.1945467,-149.9255991,,75,Unknown,,No video
+183,4009,Bear 15,"Sunday, July 28, 2013",5:55 PM,61.1944817,-149.9257516,,75,Unknown,,No video
+184,4039,Bear 15,"Monday, July 29, 2013",12:01 AM,61.2017217,-149.9359581,,68,Unknown,,No video
+185,4063,Bear 15,"Monday, July 29, 2013",6:00 AM,61.2027205,-149.9369284,,66,Unknown,,No video
+186,4097,Bear 15,"Monday, July 29, 2013",12:02 PM,61.2031972,-149.9197838,,73,Unknown,,No video
+187,4117,Bear 15,"Monday, July 29, 2013",6:00 PM,61.2041675,-149.9216584,,77,Unknown,,No video
+188,4151,Bear 15,"Tuesday, July 30, 2013",12:01 AM,61.2008027,-149.8801804,,70,Unknown,,No video
+189,4185,Bear 15,"Tuesday, July 30, 2013",6:00 AM,61.200335,-149.8773499,,68,Unknown,,No video
+190,4221,Bear 15,"Tuesday, July 30, 2013",12:01 PM,61.2068088,-149.839882,,73,Unknown,,No video
+191,4256,Bear 15,"Tuesday, July 30, 2013",6:01 PM,61.2069467,-149.8392036,,79,Unknown,,No video
+192,4292,Bear 15,"Wednesday, July 31, 2013",12:00 AM,61.1972795,-149.7939532,,68,Unknown,,No video
+193,4327,Bear 15,"Wednesday, July 31, 2013",6:00 AM,61.2065413,-149.7818645,,63,Unknown,,No video
+194,4363,Bear 15,"Wednesday, July 31, 2013",12:01 PM,61.2595282,-149.7333383,,79,Unknown,,No video
+195,4397,Bear 15,"Wednesday, July 31, 2013",6:02 PM,61.2709244,-149.8022704,,81,Unknown,,No video
+196,4428,Bear 15,"Thursday, August 01, 2013",12:00 AM,61.2651806,-149.8344066,,63,Unknown,,No video
+197,4464,Bear 15,"Thursday, August 01, 2013",6:00 AM,61.2651178,-149.8380693,,61,Unknown,,No video
+198,4500,Bear 15,"Thursday, August 01, 2013",12:01 PM,61.2581851,-149.8327101,,75,Unknown,,No video
+199,4561,Bear 15,"Friday, August 02, 2013",12:00 AM,61.2595807,-149.8656148,,61,Unknown,,No video
+200,4597,Bear 15,"Friday, August 02, 2013",6:00 AM,61.2535019,-149.8705892,,61,Unknown,,No video
+201,4633,Bear 15,"Friday, August 02, 2013",12:01 PM,61.2352134,-149.8787113,,77,Unknown,,No video
+202,4680,Bear 15,"Saturday, August 03, 2013",12:00 AM,61.2512349,-149.8738155,,70,Unknown,,No video
+203,4737,Bear 15,"Saturday, August 03, 2013",12:00 PM,61.2742095,-149.8460212,,72,Unknown,,No video
+204,4769,Bear 15,"Saturday, August 03, 2013",6:01 PM,61.2681502,-149.827533,,73,Unknown,,No video
+205,4820,Bear 15,"Sunday, August 04, 2013",6:01 AM,61.2620476,-149.8284166,,66,Unknown,,No video
+206,4852,Bear 15,"Sunday, August 04, 2013",12:00 PM,61.2774905,-149.8365985,,79,Unknown,,No video
+207,4916,Bear 15,"Monday, August 05, 2013",12:02 AM,61.2844201,-149.8117652,,64,Unknown,,No video
+208,4950,Bear 15,"Monday, August 05, 2013",6:00 AM,61.2832701,-149.8105709,,64,Unknown,,No video
+209,4986,Bear 15,"Monday, August 05, 2013",12:01 PM,61.2822267,-149.8029885,,75,Unknown,,No video
+210,5051,Bear 15,"Tuesday, August 06, 2013",12:00 AM,61.2713429,-149.841922,,64,Unknown,,No video
+211,5087,Bear 15,"Tuesday, August 06, 2013",6:00 AM,61.2732596,-149.8413027,,61,Unknown,,No video
+212,5123,Bear 15,"Tuesday, August 06, 2013",12:02 PM,61.2582304,-149.8322917,,73,Unknown,,No video
+213,5143,Bear 15,"Tuesday, August 06, 2013",6:06 PM,61.2576861,-149.8338661,,70,Unknown,,No video
+214,5175,Bear 15,"Wednesday, August 07, 2013",12:01 AM,61.2534312,-149.8476153,,64,Unknown,,No video
+215,5266,Bear 15,"Wednesday, August 07, 2013",6:00 PM,61.2599035,-149.8289214,,68,Unknown,,No video
+216,5302,Bear 15,"Thursday, August 08, 2013",12:02 AM,61.2667686,-149.8289913,,66,Unknown,,No video
+217,5337,Bear 15,"Thursday, August 08, 2013",6:00 AM,61.2673037,-149.8288253,,66,Unknown,,No video
+218,5373,Bear 15,"Thursday, August 08, 2013",12:01 PM,61.2605052,-149.8234735,,68,Unknown,,No video
+219,5408,Bear 15,"Thursday, August 08, 2013",6:01 PM,61.2581755,-149.8284463,,68,Unknown,,No video
+220,5443,Bear 15,"Friday, August 09, 2013",12:01 AM,61.2615573,-149.8645927,,66,Unknown,,No video
+221,5502,Bear 15,"Friday, August 09, 2013",12:01 PM,61.2580193,-149.8324561,,63,Unknown,,No video
+222,5564,Bear 15,"Saturday, August 10, 2013",12:03 AM,61.2611992,-149.8248338,,64,Unknown,,No video
+223,5584,Bear 15,"Saturday, August 10, 2013",6:02 AM,61.2611922,-149.8250634,,64,Unknown,,No video
+224,5612,Bear 15,"Saturday, August 10, 2013",12:02 PM,61.2606848,-149.8277245,,64,Unknown,,No video
+225,5644,Bear 15,"Saturday, August 10, 2013",6:02 PM,61.2530231,-149.8457341,,68,Unknown,,No video
+226,5680,Bear 15,"Sunday, August 11, 2013",12:00 AM,61.2509768,-149.8749098,,66,Unknown,,No video
+227,5738,Bear 15,"Sunday, August 11, 2013",12:01 PM,61.2391157,-149.8777912,,64,Unknown,,No video
+228,5774,Bear 15,"Sunday, August 11, 2013",6:03 PM,61.2336143,-149.8720739,,66,Unknown,,No video
+229,5810,Bear 15,"Monday, August 12, 2013",12:01 AM,61.2500716,-149.8701124,,70,Unknown,,No video
+230,5845,Bear 15,"Monday, August 12, 2013",6:00 AM,61.2501895,-149.8700366,,63,Unknown,,No video
+231,5871,Bear 15,"Monday, August 12, 2013",12:01 PM,61.2511706,-149.8558778,,70,Unknown,,No video
+232,5900,Bear 15,"Monday, August 12, 2013",6:01 PM,61.2510314,-149.8542695,,75,Unknown,,No video
+233,5930,Bear 15,"Tuesday, August 13, 2013",12:02 AM,61.2581426,-149.8316234,,70,Unknown,,No video
+234,5979,Bear 15,"Tuesday, August 13, 2013",12:00 PM,61.2700791,-149.8194605,,72,Unknown,,No video
+235,6013,Bear 15,"Tuesday, August 13, 2013",6:01 PM,61.2700626,-149.8304659,,77,Unknown,,No video
+236,6049,Bear 15,"Wednesday, August 14, 2013",12:02 AM,61.2612517,-149.8250713,,64,Unknown,,No video
+237,6142,Bear 15,"Wednesday, August 14, 2013",6:01 PM,61.2566488,-149.8318074,,70,Unknown,,No video
+238,6176,Bear 15,"Thursday, August 15, 2013",12:02 AM,61.2610448,-149.8471593,,72,Unknown,,No video
+239,6225,Bear 15,"Thursday, August 15, 2013",12:00 PM,61.259638,-149.8535182,,73,Unknown,,No video
+240,6288,Bear 15,"Friday, August 16, 2013",12:01 AM,61.2530963,-149.8603435,,66,Unknown,,No video
+241,6323,Bear 15,"Friday, August 16, 2013",6:00 AM,61.2530945,-149.8603342,,64,Unknown,,No video
+242,6359,Bear 15,"Friday, August 16, 2013",12:01 PM,61.254353,-149.8421567,,72,Unknown,,No video
+243,6395,Bear 15,"Friday, August 16, 2013",6:02 PM,61.259355,-149.8286801,,68,Unknown,,No video
+244,6430,Bear 15,"Saturday, August 17, 2013",12:02 AM,61.2613637,-149.8252152,,73,Unknown,,No video
+245,6491,Bear 15,"Saturday, August 17, 2013",12:01 PM,61.262429,-149.8201883,,70,Unknown,,No video
+246,6525,Bear 15,"Saturday, August 17, 2013",6:00 PM,61.2692992,-149.8343736,,77,Unknown,,No video
+247,6549,Bear 15,"Sunday, August 18, 2013",12:00 AM,61.2545307,-149.8334428,,68,Unknown,,No video
+248,6609,Bear 15,"Sunday, August 18, 2013",12:01 PM,61.2516824,-149.8683237,,70,Unknown,,No video
+249,6673,Bear 15,"Monday, August 19, 2013",12:01 AM,61.2529494,-149.8607172,,72,Unknown,,No video
+250,6726,Bear 15,"Monday, August 19, 2013",12:01 PM,61.2566697,-149.86595,,66,Unknown,,No video
+251,6757,Bear 15,"Monday, August 19, 2013",6:02 PM,61.2579615,-149.851142,,70,Unknown,,No video
+252,6792,Bear 15,"Tuesday, August 20, 2013",12:01 AM,61.262224,-149.8279329,,68,Unknown,,No video
+253,6815,Bear 15,"Tuesday, August 20, 2013",6:01 AM,61.2624486,-149.8281371,,72,Unknown,,No video
+254,6850,Bear 15,"Tuesday, August 20, 2013",12:01 PM,61.2612627,-149.8269561,,70,Unknown,,No video
+255,6886,Bear 15,"Tuesday, August 20, 2013",6:01 PM,61.2565013,-149.8320966,,68,Unknown,,No video
+256,6920,Bear 15,"Wednesday, August 21, 2013",12:02 AM,61.2597973,-149.8356235,,68,Unknown,,No video
+257,15,Bear 22,"Monday, July 01, 2013",6:01 PM,61.1247687,-149.728203,300,63,Resting,,
+258,50,Bear 22,"Tuesday, July 02, 2013",12:00 AM,61.1086001,-149.7063849,536,54,Locomotion,,Walking through the woods
+259,86,Bear 22,"Tuesday, July 02, 2013",6:00 AM,61.1105501,-149.7080043,501,57,Resting,,
+260,120,Bear 22,"Tuesday, July 02, 2013",12:07 PM,61.1105736,-149.7079348,501,64,Resting,,
+261,148,Bear 22,"Tuesday, July 02, 2013",6:00 PM,61.1104693,-149.7074329,474,70,Resting,,
+262,174,Bear 22,"Tuesday, July 02, 2013",10:20 PM,61.1072031,-149.6805791,634,57,Other,Bear 22 7-02-13 22:20,Chasing subadult brown bear
+263,184,Bear 22,"Wednesday, July 03, 2013",12:00 AM,61.1060171,-149.6798034,644,55,Locomotion,,Standing and looking in a field
+264,220,Bear 22,"Wednesday, July 03, 2013",6:00 AM,61.1102392,-149.6924967,582,59,Resting,,
+265,256,Bear 22,"Wednesday, July 03, 2013",12:00 PM,61.1093635,-149.6954958,531,63,Resting,,
+266,292,Bear 22,"Wednesday, July 03, 2013",6:00 PM,61.1142285,-149.7093656,458,68,Resting,,
+267,328,Bear 22,"Thursday, July 04, 2013",12:00 AM,61.1088814,-149.6942435,580,55,Resting,,
+268,364,Bear 22,"Thursday, July 04, 2013",6:00 AM,61.1089007,-149.6942422,596,54,Resting,,
+269,390,Bear 22,"Thursday, July 04, 2013",12:00 PM,61.1096387,-149.6954236,576,52,Resting,,
+270,426,Bear 22,"Thursday, July 04, 2013",6:00 PM,61.1057346,-149.7048642,570,59,Resting,Bear 22 7-04-13 18:00,Resting with both front feet out front
+271,462,Bear 22,"Friday, July 05, 2013",12:00 AM,61.1086631,-149.7012513,553,55,Resting,,
+272,498,Bear 22,"Friday, July 05, 2013",6:00 AM,61.1094942,-149.6994027,544,55,Locomotion,,Walking and smelling the ground
+273,534,Bear 22,"Friday, July 05, 2013",12:01 PM,61.1230734,-149.715447,484,70,Locomotion,,Walking through someone's yard
+274,559,Bear 22,"Friday, July 05, 2013",4:20 PM,61.1581446,-149.7063999,264,72,Anthropogenic,Bear 22 7-05-13 16:20,Digging through a compost pile
+275,569,Bear 22,"Friday, July 05, 2013",6:00 PM,61.1548547,-149.7234931,165,68,Natural food,Bear 22 7-05-13 18:00,Eating grubs from a rotten log
+276,579,Bear 22,"Friday, July 05, 2013",7:40 PM,61.1511079,-149.7254391,206,61,Natural food,Bear 22 7-05-13 19:40,Eating dandelion (Taraxacum officinale) while person in a pickup truck watches
+277,604,Bear 22,"Saturday, July 06, 2013",12:00 AM,61.1482658,-149.7560021,132,59,Resting,,
+278,640,Bear 22,"Saturday, July 06, 2013",6:01 AM,61.14814,-149.7555329,144,59,Resting,,
+279,676,Bear 22,"Saturday, July 06, 2013",12:01 PM,61.1293883,-149.7466323,246,64,Resting,,
+280,710,Bear 22,"Saturday, July 06, 2013",6:00 PM,61.114704,-149.7357539,335,66,Resting,,
+281,726,Bear 22,"Saturday, July 06, 2013",8:40 PM,61.109623,-149.7403711,307,63,Other,Bear 22 7-06-13 20:40,Chasing subadult brown bear
+282,746,Bear 22,"Sunday, July 07, 2013",12:00 AM,61.1069697,-149.7559776,260,61,Natural food,,Eating horsetail (Equisetum spp.)
+283,780,Bear 22,"Sunday, July 07, 2013",6:00 AM,61.1072457,-149.7562527,274,72,Resting,,
+284,791,Bear 22,"Sunday, July 07, 2013",7:50 AM,61.1023796,-149.7503986,278,59,Anthropogenic,Bear 22 7-07-13 07:50,Climbs up on deck railing to get to bird feeder
+285,798,Bear 22,"Sunday, July 07, 2013",9:20 AM,61.0976682,-149.7622991,241,64,Locomotion,Bear 22 7-07-13 09:20,Climbing down inside hollow cottonwood tree
+286,814,Bear 22,"Sunday, July 07, 2013",12:00 PM,61.1001412,-149.769129,265,77,Locomotion,,Walking through the woods
+287,847,Bear 22,"Sunday, July 07, 2013",6:01 PM,61.1246896,-149.7554986,209,72,Resting,,
+288,879,Bear 22,"Monday, July 08, 2013",12:01 AM,61.1265985,-149.746214,240,61,Locomotion,,Standing and looking around
+289,912,Bear 22,"Monday, July 08, 2013",5:30 AM,61.1249934,-149.7473504,256,57,Other,Bear 22 7-08-13 05:30,"Interacting (this type of behavior is called 'jawing') with Bear 17, a black bear that had been collared the previous year"
+290,915,Bear 22,"Monday, July 08, 2013",6:01 AM,61.1259142,-149.7471075,281,57,Resting,,
+291,942,Bear 22,"Monday, July 08, 2013",10:30 AM,61.1251357,-149.7462833,266,63,Anthropogenic,Bear 22 7-08-13 10:30,Eating trash inside giant jobsite dumpster
+292,951,Bear 22,"Monday, July 08, 2013",12:00 PM,61.128058,-149.7420188,254,61,Locomotion,,Walking in the woods
+293,952,Bear 22,"Monday, July 08, 2013",12:11 PM,61.1297581,-149.7415245,232,61,Natural food,Bear 22 7-08-13 12:11,Eating grubs from a rotten log
+294,986,Bear 22,"Monday, July 08, 2013",6:02 PM,61.1440817,-149.6968457,294,68,Resting,,
+295,1020,Bear 22,"Tuesday, July 09, 2013",12:01 AM,61.1468963,-149.7153994,234,61,Resting,,
+296,1080,Bear 22,"Tuesday, July 09, 2013",12:00 PM,61.1538843,-149.7615146,118,72,Natural food,,Eating grubs from a rotten log
+297,1110,Bear 22,"Tuesday, July 09, 2013",5:10 PM,61.125442,-149.7380844,255,79,Anthropogenic,Bear 22 7-09-13 17:10,Bear is inside an open garage; use 1715
+298,1115,Bear 22,"Tuesday, July 09, 2013",6:01 PM,61.1215605,-149.7378126,265,79,Resting,,
+299,1123,Bear 22,"Tuesday, July 09, 2013",8:01 PM,61.1207403,-149.7392202,262,72,Anthropogenic,Bear 22 7-09-13 20:01,"Bear is inside and open garage, takes bag of dogfood out"
+300,1125,Bear 22,"Tuesday, July 09, 2013",8:21 PM,61.1210178,-149.7391948,259,70,Anthropogenic,Bear 22 7-09-13 20:21,Still eating out of dogfood  bag taken from open garage
+301,1147,Bear 22,"Wednesday, July 10, 2013",12:01 AM,61.1061367,-149.7076733,580,57,Locomotion,,Waling through spruce thicket
+302,1183,Bear 22,"Wednesday, July 10, 2013",6:01 AM,61.1089496,-149.7017487,538,63,Resting,,
+303,1206,Bear 22,"Wednesday, July 10, 2013",11:41 AM,61.1032461,-149.6916464,640,84,Other,Bear 22 7-10-13 11:41,Rubbing on a powerline pole
+304,1208,Bear 22,"Wednesday, July 10, 2013",12:00 PM,61.1066873,-149.6913268,605,79,Natural food,,Digging for insects
+305,1213,Bear 22,"Wednesday, July 10, 2013",12:50 PM,61.1118361,-149.6898713,608,88,Natural food,Bear 22 7-10-13 12:50,Eating crowberry berries (Empetrum nigrum)
+306,1241,Bear 22,"Wednesday, July 10, 2013",6:03 PM,61.1179053,-149.7303507,322,79,Locomotion,,Standing and looking around
+307,1249,Bear 22,"Wednesday, July 10, 2013",7:20 PM,61.1281348,-149.7121195,476,77,Natural food,Bear 22 7-10-13 19:20,Eating grubs from a rotten log
+308,1277,Bear 22,"Thursday, July 11, 2013",12:00 AM,61.117511,-149.6821559,548,54,Resting,,
+309,1307,Bear 22,"Thursday, July 11, 2013",6:01 AM,61.1175147,-149.6823456,560,63,Resting,,
+310,1331,Bear 22,"Thursday, July 11, 2013",12:00 PM,61.111787,-149.6897432,607,91,Natural food,,Eating crowberry berries (Empetrum nigrum)
+311,1340,Bear 22,"Thursday, July 11, 2013",1:31 PM,61.1140619,-149.7159407,424,90,Locomotion,Bear 22 7-11-13 13:31,"Looking into a culvert, then walking away"
+312,1358,Bear 22,"Thursday, July 11, 2013",4:40 PM,61.1291409,-149.7384323,239,82,Anthropogenic,Bear 22 7-11-13 16:40,Walking into an open garage
+313,1366,Bear 22,"Thursday, July 11, 2013",6:01 PM,61.1281889,-149.7357264,256,82,Resting,,
+314,1401,Bear 22,"Friday, July 12, 2013",12:00 AM,61.1372256,-149.6996783,393,61,Natural food,,Eating wild celery (Angelica spp.)
+315,1433,Bear 22,"Friday, July 12, 2013",6:01 AM,61.1375663,-149.6990564,380,64,Resting,,
+316,1469,Bear 22,"Friday, July 12, 2013",12:00 PM,61.1422241,-149.7091957,322,93,Locomotion,,Walking through alders
+317,1509,Bear 22,"Friday, July 12, 2013",7:00 PM,61.1268194,-149.7371238,267,77,Anthropogenic,Bear 22 7-12-13 19:00,Walks into open garage
+318,1538,Bear 22,"Saturday, July 13, 2013",12:00 AM,61.0998914,-149.7586239,237,64,Locomotion,,standing and looking around
+319,1570,Bear 22,"Saturday, July 13, 2013",5:32 AM,61.0978789,-149.7633681,221,66,Other,Bear 22 7-13-13 05:32,"Interacting (play bout) with Bear 17, a black bear that had been collared the previous year"
+320,1573,Bear 22,"Saturday, July 13, 2013",6:00 AM,61.0976566,-149.7625712,250,64,Resting,,
+321,1575,Bear 22,"Saturday, July 13, 2013",6:20 AM,61.0976057,-149.7626126,239,64,Resting,Bear 22 7-13-13 06:20,"Resting in a cottonwood tree, Bear 17 climbing up another tree"
+322,1609,Bear 22,"Saturday, July 13, 2013",12:01 PM,61.1143682,-149.7714157,230,75,Natural,,Eating grubs from a rotten log
+323,1634,Bear 22,"Saturday, July 13, 2013",4:10 PM,61.1401032,-149.7589024,151,84,Natural,Bear 22 7-13-13 16:10,Finds a cached moose calf
+324,1645,Bear 22,"Saturday, July 13, 2013",6:02 PM,61.1416959,-149.7690416,123,77,Resting,,
+325,1680,Bear 22,"Sunday, July 14, 2013",12:00 AM,61.1403118,-149.7292255,259,63,Locomotion,,walking down dirt road
+326,1716,Bear 22,"Sunday, July 14, 2013",6:00 AM,61.1413552,-149.7235394,263,57,Resting,,
+327,1740,Bear 22,"Sunday, July 14, 2013",12:01 PM,61.1422184,-149.6946119,336,66,Natural food,,Eating dandelion (Taraxacum officinale)
+328,1757,Bear 22,"Sunday, July 14, 2013",2:51 PM,61.1278269,-149.6915758,365,75,Locomotion,Bear 22 7-14-13 14:51,Trying to cross creek
+329,1766,Bear 22,"Sunday, July 14, 2013",4:20 PM,61.1180496,-149.7196958,412,77,Anthropogenic,,Eating trash out of a large open jobsite dumpster
+330,1776,Bear 22,"Sunday, July 14, 2013",6:02 PM,61.1141746,-149.7347433,306,77,Resting,,
+331,1808,Bear 22,"Monday, July 15, 2013",12:00 AM,61.1025384,-149.7024892,652,57,Locomotion,,
+332,1840,Bear 22,"Monday, July 15, 2013",6:00 AM,61.102639,-149.7043292,622,59,Resting,,
+333,1859,Bear 22,"Monday, July 15, 2013",9:10 AM,61.1039278,-149.6993416,623,61,Natrual food,Bear 22 7-15-13 09:10,Eating crowberry berries (Empetrum nigrum)
+334,1876,Bear 22,"Monday, July 15, 2013",12:01 PM,61.1173086,-149.7339374,337,68,Anthropogenic,,On someone's back deck
+335,1911,Bear 22,"Monday, July 15, 2013",6:00 PM,61.1300478,-149.7383026,270,70,Locomotion,,Walking down powerline trail
+336,1947,Bear 22,"Tuesday, July 16, 2013",12:01 AM,61.1371264,-149.7109021,349,61,Locomotion,,Walking through forest at night
+337,1981,Bear 22,"Tuesday, July 16, 2013",6:00 AM,61.1349445,-149.7191685,333,59,Locomotion,,Walking through trees
+338,2017,Bear 22,"Tuesday, July 16, 2013",12:02 PM,61.1179827,-149.7020224,527,70,Locomotion,,Walking through open forest floor
+339,2043,Bear 22,"Tuesday, July 16, 2013",4:30 PM,61.124472,-149.7535298,269,79,Anthropogenic,Bear 22 7-16-13 16:30,Eating trash on porch
+340,2052,Bear 22,"Tuesday, July 16, 2013",6:01 PM,61.1100593,-149.7660562,216,77,Anthropogenic,Bear 22 7-16-13 18:01,Eating trash
+341,2073,Bear 22,"Tuesday, July 16, 2013",10:00 PM,61.1001516,-149.7584878,255,68,Anthropogenic,Bear 22 7-16-13 22:00,Eating birdseed (sunflower seeds) scattered at the end of driveway
+342,2085,Bear 22,"Wednesday, July 17, 2013",12:00 AM,61.0950535,-149.7708729,250,66,Resting,,
+343,2116,Bear 22,"Wednesday, July 17, 2013",6:02 AM,61.0949383,-149.7707928,232,66,Resting,,
+344,2144,Bear 22,"Wednesday, July 17, 2013",12:01 PM,61.0995623,-149.7566326,262,82,Locomotion,,Walking through yard
+345,2147,Bear 22,"Wednesday, July 17, 2013",12:31 PM,61.1040501,-149.7546512,267,84,Anthropogenic,Bear 22 7-17-13 12:31,Raids birdfeeder
+346,2157,Bear 22,"Wednesday, July 17, 2013",2:11 PM,61.1045927,-149.7597152,253,75,Other,Bear 22 7-17-13 14:11,Play bout with another bear
+347,2167,Bear 22,"Wednesday, July 17, 2013",3:51 PM,61.1186707,-149.7596182,242,77,Anthropogenic,Bear 22 7-17-13 15:51,Eating birdseed/squirrel food from deck
+348,2169,Bear 22,"Wednesday, July 17, 2013",4:10 PM,61.1198048,-149.7569908,268,77,Anthropogenic,Bear 22 7-17-13 16:10,Eating oats scattered along top of fence
+349,2170,Bear 22,"Wednesday, July 17, 2013",4:20 PM,61.119715,-149.756864,246,77,Anthropogenic,Bear 22 7-17-13 16:20,Eating gigantic suet block
+350,2180,Bear 22,"Wednesday, July 17, 2013",6:01 PM,61.122824,-149.7348718,295,77,Locomotion,,Walking through yard
+351,2213,Bear 22,"Thursday, July 18, 2013",12:01 AM,61.109262,-149.7092164,509,64,Locomotion,,Walking through spruce thicket
+352,2248,Bear 22,"Thursday, July 18, 2013",6:01 AM,61.1058882,-149.7136233,531,79,Resting,,
+353,2256,Bear 22,"Thursday, July 18, 2013",8:10 AM,61.1045091,-149.7060963,582,72,Other,Bear 22 7-18-13 08:10,Rubbing on tree
+354,2260,Bear 22,"Thursday, July 18, 2013",8:50 AM,61.1039803,-149.6992441,623,70,Natural food,Bear 22 7-18-13 08:50,Eating crowberry berries (Empetrum nigrum)
+355,2264,Bear 22,"Thursday, July 18, 2013",9:30 AM,61.1038772,-149.6984916,622,72,Natural food,Bear 22 7-18-13 09:30,Eating crowberry berries (Empetrum nigrum)
+356,2279,Bear 22,"Thursday, July 18, 2013",12:00 PM,61.1046325,-149.6825025,687,82,Locomotion,,walking through hemlocks
+357,2302,Bear 22,"Thursday, July 18, 2013",3:51 PM,61.0718763,-149.7074027,575,73,Other,Bear 22 7-18-13 15:51,Play bout with another black bear wearing a white ear tag and has a small white mark on its chest; use 1555
+358,2308,Bear 22,"Thursday, July 18, 2013",4:50 PM,61.0720539,-149.708073,550,73,Other,Bear 22 7-18-13 16:50,Play bout with two other bears
+359,2315,Bear 22,"Thursday, July 18, 2013",6:01 PM,61.0717025,-149.7078043,588,84,Locomotion,,Walking in an open area
+360,2351,Bear 22,"Friday, July 19, 2013",12:01 AM,61.0903272,-149.7204706,446,68,other,,Play bout with another black bear
+361,2386,Bear 22,"Friday, July 19, 2013",6:01 AM,61.0904408,-149.7202997,432,64,Resting,,
+362,2395,Bear 22,"Friday, July 19, 2013",7:30 AM,61.0902787,-149.7196488,423,63,Other,Bear 22 7-19-13 07:30,Play bout with another black bear
+363,2422,Bear 22,"Friday, July 19, 2013",12:01 PM,61.1097997,-149.7239497,429,77,Locomotion,,Walking through a yard
+364,2423,Bear 22,"Friday, July 19, 2013",12:11 PM,61.11156,-149.7253556,430,77,Locomotion,,Walking down a road
+365,2441,Bear 22,"Friday, July 19, 2013",3:11 PM,61.1249159,-149.7277556,346,82,Anthropogenic,Bear 22 7-19-13 15:11,Eating peanuts from a squirrel midden
+366,2451,Bear 22,"Friday, July 19, 2013",4:50 PM,61.1257647,-149.7437739,237,84,Anthropogenic,Bear 22 7-19-13 16:50,Checking out a barbeque grill on a deck
+367,2453,Bear 22,"Friday, July 19, 2013",5:11 PM,61.1251156,-149.7461618,238,86,Anthropogenic,Bear 22 7-19-13 17:11,Eating trash in a gigantic dumpster
+368,2458,Bear 22,"Friday, July 19, 2013",6:01 PM,61.1259221,-149.7465799,247,82,Resting,,
+369,2491,Bear 22,"Saturday, July 20, 2013",12:00 AM,61.1351109,-149.7177522,334,66,Locomotion,,Walking down a driveway
+370,2527,Bear 22,"Saturday, July 20, 2013",6:00 AM,61.1356951,-149.7105096,371,57,Resting,,
+371,2563,Bear 22,"Saturday, July 20, 2013",12:01 PM,61.1453728,-149.7088099,298,66,Locomotion,,Walkign through alders
+372,2594,Bear 22,"Saturday, July 20, 2013",5:10 PM,61.1172541,-149.7334527,307,82,Locomotion,Bear 22 7-20-13 17:10,"On second story deck, uses tree to climb down instead of stairs"
+373,2599,Bear 22,"Saturday, July 20, 2013",6:01 PM,61.1190175,-149.7363884,292,75,Resting,,
+374,2633,Bear 22,"Sunday, July 21, 2013",12:00 AM,61.1161131,-149.6789412,567,61,Resting,,
+375,2685,Bear 22,"Sunday, July 21, 2013",12:01 PM,61.1196366,-149.7134658,470,77,Locomotion,,Walking through brush
+376,2709,Bear 22,"Sunday, July 21, 2013",4:00 PM,61.1208681,-149.7392376,274,81,Anthropogenic,Bear 22 7-21-13 16:00,Gets large bag of dogfood out of open garage
+377,2710,Bear 22,"Sunday, July 21, 2013",4:10 PM,61.1206247,-149.7393031,266,82,Anthropogenic,Bear 22 7-21-13 16:10,"Checking out pantry, then drags large bag o dogfood into woods"
+378,2721,Bear 22,"Sunday, July 21, 2013",6:00 PM,61.1210147,-149.7393805,278,81,Anthropogenic,,Eating dog food
+379,2752,Bear 22,"Monday, July 22, 2013",12:01 AM,61.1218518,-149.7375415,301,66,Resting,,
+380,2776,Bear 22,"Monday, July 22, 2013",6:01 AM,61.1223902,-149.7368537,298,59,Locomotion,,"Running, chasing another bear down road"
+381,2808,Bear 22,"Monday, July 22, 2013",12:00 PM,61.1396856,-149.7290093,248,79,Natural food,,Eating crowberry berries (Empetrum nigrum)
+382,2814,Bear 22,"Monday, July 22, 2013",1:10 PM,61.1351069,-149.7361509,248,84,Anthropogenic,Bear 22 7-22-13 13:10,Walks into open garage; use 1305
+383,2816,Bear 22,"Monday, July 22, 2013",1:31 PM,61.134773,-149.7387574,243,82,Anthropogenic,Bear 22 7-22-13 13:31,Walks into open garage
+384,2873,Bear 22,"Tuesday, July 23, 2013",12:01 AM,61.1217836,-149.7374934,290,66,Resting,,
+385,2901,Bear 22,"Tuesday, July 23, 2013",6:00 AM,61.1209627,-149.7392015,274,66,Natural food,,Eating grubs from rotten log
+386,2908,Bear 22,"Tuesday, July 23, 2013",7:10 AM,61.1187766,-149.7342694,302,64,Natural food,Bear 22 7-23-13 07:10,Eating paper wasp nest
+387,2972,Bear 22,"Tuesday, July 23, 2013",6:00 PM,61.1438685,-149.6995041,315,88,Natural food,,Eating crowberry berries (Empetrum nigrum)
+388,3007,Bear 22,"Wednesday, July 24, 2013",12:02 AM,61.1344103,-149.6979055,405,70,Resting,,
+389,3043,Bear 22,"Wednesday, July 24, 2013",6:01 AM,61.1347193,-149.6980106,405,63,Resting,,
+390,3078,Bear 22,"Wednesday, July 24, 2013",12:02 PM,61.1592162,-149.6891109,367,82,Locomotion,,Walking through brush
+391,3084,Bear 22,"Wednesday, July 24, 2013",1:32 PM,61.1647375,-149.6947293,318,90,Anthropogenic,Bear 22 7-24-13 13:32,Carrying bag of birdseed through woods
+392,3099,Bear 22,"Wednesday, July 24, 2013",4:02 PM,61.1650989,-149.6953275,276,88,Anthropogenic,Bear 22 7-24-13 16:02,Eating birdseed from bag that bear had grabbed off a porch and dragged into the woods
+393,3110,Bear 22,"Wednesday, July 24, 2013",6:02 PM,61.1634295,-149.6963624,283,82,Resting,,
+394,3145,Bear 22,"Thursday, July 25, 2013",12:01 AM,61.1483979,-149.7019931,322,66,Resting,,
+395,3187,Bear 22,"Thursday, July 25, 2013",9:00 AM,61.1427325,-149.6765307,535,64,Natural food,Bear 22 7-25-13 09:00,Eating blueberries (Vaccinium uliginosum)
+396,3205,Bear 22,"Thursday, July 25, 2013",12:00 PM,61.140044,-149.675248,625,75,Natural food,,Eating blueberries (Vaccinium uliginosum)
+397,3250,Bear 22,"Thursday, July 25, 2013",8:00 PM,61.1040215,-149.7084523,548,75,Natural food,Bear 22 7-25-13 20:00,Eating soapberry (Sheperdia canadensis)
+398,3273,Bear 22,"Friday, July 26, 2013",12:00 AM,61.1142387,-149.7351933,335,66,Resting,,
+399,3312,Bear 22,"Friday, July 26, 2013",8:50 AM,61.1351504,-149.7548226,154,64,Anthropogenic,Bear 22 7-26-13 08:50,Eating strawberries
+400,3313,Bear 22,"Friday, July 26, 2013",9:00 AM,61.1360888,-149.7536592,158,66,Locomotion,Bear 22 7-26-13 09:00,"Car back out of driveway, bear heads for the bushes"
+401,3318,Bear 22,"Friday, July 26, 2013",9:50 AM,61.1427831,-149.7622753,150,66,Natural food,Bear 22 7-26-13 09:50,Eating devil's club berries (Oplopanax horridus)
+402,3331,Bear 22,"Friday, July 26, 2013",12:02 PM,61.145797,-149.7323288,207,68,Locomotion,,Walking through brush
+403,3344,Bear 22,"Friday, July 26, 2013",2:12 PM,61.1467443,-149.7160438,253,70,Locomotion,Bear 22 7-26-13 14:12,Swimming
+404,3345,Bear 22,"Friday, July 26, 2013",2:21 PM,61.1467205,-149.7160264,261,70,Resting,Bear 22 7-26-13 14:21,Resting with wild celery (Angelica spp.) in the background
+405,3367,Bear 22,"Friday, July 26, 2013",6:02 PM,61.1472961,-149.7072147,292,77,Locomotion,,Stading and looking around
+406,3402,Bear 22,"Saturday, July 27, 2013",12:01 AM,61.1476228,-149.7109259,315,68,Resting,,
+407,3463,Bear 22,"Saturday, July 27, 2013",12:01 PM,61.1473821,-149.7132312,239,75,Other,,Play bout with another black bear
+408,3499,Bear 22,"Saturday, July 27, 2013",6:01 PM,61.1501067,-149.7132568,277,79,Unknown,,No video
+409,3530,Bear 22,"Sunday, July 28, 2013",12:00 AM,61.1454334,-149.6956267,347,61,Unknown,,No video
+410,3566,Bear 22,"Sunday, July 28, 2013",6:00 AM,61.1470394,-149.6945149,336,64,Unknown,,No video
+411,3602,Bear 22,"Sunday, July 28, 2013",12:01 PM,61.1431783,-149.7023035,353,72,Unknown,,No video
+412,3637,Bear 22,"Sunday, July 28, 2013",6:02 PM,61.1212499,-149.709553,459,84,Unknown,,No video
+413,3662,Bear 22,"Monday, July 29, 2013",12:00 AM,61.1177135,-149.6817309,545,64,Unknown,,No video
+414,3694,Bear 22,"Monday, July 29, 2013",6:00 AM,61.1177077,-149.6817161,533,66,Unknown,,No video
+415,3730,Bear 22,"Monday, July 29, 2013",12:00 PM,61.1122729,-149.6811159,591,77,Unknown,,No video
+416,3766,Bear 22,"Monday, July 29, 2013",6:02 PM,61.1238303,-149.6833784,495,84,Unknown,,No video
+417,3800,Bear 22,"Tuesday, July 30, 2013",12:01 AM,61.1219499,-149.6545656,646,61,Unknown,,No video
+418,3833,Bear 22,"Tuesday, July 30, 2013",6:04 AM,61.1222572,-149.6545898,623,57,Unknown,,No video
+419,3861,Bear 22,"Tuesday, July 30, 2013",12:01 PM,61.1442228,-149.712617,288,73,Unknown,,No video
+420,3897,Bear 22,"Tuesday, July 30, 2013",6:00 PM,61.1363622,-149.6989192,385,77,Unknown,,No video
+421,3933,Bear 22,"Wednesday, July 31, 2013",12:00 AM,61.1434673,-149.702084,349,64,Unknown,,No video
+422,3993,Bear 22,"Wednesday, July 31, 2013",12:01 PM,61.1548726,-149.7113137,249,77,Unknown,,No video
+423,4027,Bear 22,"Wednesday, July 31, 2013",6:01 PM,61.1481351,-149.7209447,205,84,Unknown,,No video
+424,4062,Bear 22,"Thursday, August 01, 2013",12:00 AM,61.14522,-149.6960586,345,61,Unknown,,No video
+425,4098,Bear 22,"Thursday, August 01, 2013",6:01 AM,61.1448231,-149.6924765,357,64,Unknown,,No video
+426,4132,Bear 22,"Thursday, August 01, 2013",12:00 PM,61.1359743,-149.6999406,404,72,Unknown,,No video
+427,4167,Bear 22,"Thursday, August 01, 2013",6:02 PM,61.1419635,-149.7257853,256,84,Unknown,,No video
+428,4203,Bear 22,"Friday, August 02, 2013",12:00 AM,61.1336035,-149.6977278,421,59,Unknown,,No video
+429,4263,Bear 22,"Friday, August 02, 2013",12:01 PM,61.1121011,-149.7182559,422,70,Unknown,,No video
+430,4296,Bear 22,"Friday, August 02, 2013",6:01 PM,61.1476136,-149.7197516,208,79,Unknown,,No video
+431,4332,Bear 22,"Saturday, August 03, 2013",12:00 AM,61.1481674,-149.72147,213,68,Unknown,,No video
+432,4367,Bear 22,"Saturday, August 03, 2013",12:02 PM,61.1411758,-149.6984911,328,72,Unknown,,No video
+433,4403,Bear 22,"Saturday, August 03, 2013",6:01 PM,61.1442752,-149.7655891,123,75,Unknown,,No video
+434,4483,Bear 22,"Sunday, August 04, 2013",12:02 PM,61.149517,-149.7238,200,70,Unknown,,No video
+435,4519,Bear 22,"Sunday, August 04, 2013",6:01 PM,61.1478717,-149.7204276,193,72,Unknown,,No video
+436,4555,Bear 22,"Monday, August 05, 2013",12:01 AM,61.1454104,-149.6955985,337,64,Unknown,,No video
+437,4616,Bear 22,"Monday, August 05, 2013",12:01 PM,61.1383265,-149.7132056,333,64,Unknown,,No video
+438,4650,Bear 22,"Monday, August 05, 2013",6:00 PM,61.1029696,-149.7029516,635,66,Unknown,,No video
+439,4685,Bear 22,"Tuesday, August 06, 2013",12:01 AM,61.0976806,-149.7624858,251,68,Unknown,,No video
+440,4719,Bear 22,"Tuesday, August 06, 2013",6:00 AM,61.0977691,-149.7641593,232,66,Unknown,,No video
+441,4755,Bear 22,"Tuesday, August 06, 2013",12:00 PM,61.0943306,-149.7761534,216,72,Unknown,,No video
+442,4790,Bear 22,"Tuesday, August 06, 2013",6:00 PM,61.0898574,-149.7657616,252,72,Unknown,,No video
+443,4911,Bear 22,"Wednesday, August 07, 2013",6:02 PM,61.1260535,-149.7475028,245,68,Unknown,,No video
+444,4944,Bear 22,"Thursday, August 08, 2013",12:00 AM,61.1449065,-149.7204982,243,66,Unknown,,No video
+445,4967,Bear 22,"Thursday, August 08, 2013",6:03 AM,61.144587,-149.7202806,248,68,Unknown,,No video
+446,5003,Bear 22,"Thursday, August 08, 2013",12:00 PM,61.1512124,-149.7040705,303,70,Unknown,,No video
+447,5035,Bear 22,"Thursday, August 08, 2013",6:01 PM,61.1468877,-149.7160048,229,70,Unknown,,No video
+448,5068,Bear 22,"Friday, August 09, 2013",12:01 AM,61.1421199,-149.7003859,331,68,Unknown,,No video
+449,5098,Bear 22,"Friday, August 09, 2013",6:02 AM,61.142137,-149.7002991,343,57,Unknown,,No video
+450,5130,Bear 22,"Friday, August 09, 2013",12:00 PM,61.1372201,-149.6990635,365,59,Unknown,,No video
+451,5166,Bear 22,"Friday, August 09, 2013",6:00 PM,61.1261981,-149.7226613,396,59,Unknown,,No video
+452,5201,Bear 22,"Saturday, August 10, 2013",12:01 AM,61.0975149,-149.7625778,247,61,Unknown,,No video
+453,5237,Bear 22,"Saturday, August 10, 2013",6:00 AM,61.0979037,-149.7629251,207,64,Unknown,,No video
+454,5273,Bear 22,"Saturday, August 10, 2013",12:02 PM,61.0945882,-149.7706125,209,64,Unknown,,No video
+455,5308,Bear 22,"Saturday, August 10, 2013",6:01 PM,61.0951145,-149.7688663,211,68,Unknown,,No video
+456,5366,Bear 22,"Sunday, August 11, 2013",6:01 AM,61.094678,-149.7708313,232,64,Unknown,,No video
+457,5402,Bear 22,"Sunday, August 11, 2013",12:02 PM,61.0949356,-149.7766197,210,64,Unknown,,No video
+458,5437,Bear 22,"Sunday, August 11, 2013",6:00 PM,61.0944317,-149.7745951,213,64,Unknown,,No video
+459,5471,Bear 22,"Monday, August 12, 2013",12:01 AM,61.0951561,-149.7691906,220,63,Unknown,,No video
+460,5507,Bear 22,"Monday, August 12, 2013",6:00 AM,61.0946312,-149.7695438,194,63,Unknown,,No video
+461,5543,Bear 22,"Monday, August 12, 2013",12:02 PM,61.0954006,-149.774244,173,70,Unknown,,No video
+462,5578,Bear 22,"Monday, August 12, 2013",6:01 PM,61.0905881,-149.7707051,229,73,Unknown,,No video
+463,5614,Bear 22,"Tuesday, August 13, 2013",12:03 AM,61.0950833,-149.755043,232,64,Unknown,,No video
+464,5639,Bear 22,"Tuesday, August 13, 2013",6:02 AM,61.0951602,-149.7548442,235,63,Unknown,,No video
+465,5671,Bear 22,"Tuesday, August 13, 2013",12:00 PM,61.1061633,-149.7209811,507,75,Unknown,,No video
+466,5707,Bear 22,"Tuesday, August 13, 2013",6:03 PM,61.1303127,-149.6964275,419,73,Unknown,,No video
+467,5795,Bear 22,"Wednesday, August 14, 2013",12:01 PM,61.1511758,-149.7307269,183,68,Unknown,,No video
+468,5830,Bear 22,"Wednesday, August 14, 2013",6:01 PM,61.1406723,-149.7127503,326,70,Unknown,,No video
+469,5865,Bear 22,"Thursday, August 15, 2013",12:02 AM,61.0954716,-149.7551085,237,64,Unknown,,No video
+470,5923,Bear 22,"Thursday, August 15, 2013",12:02 PM,61.0946102,-149.7754331,233,75,Unknown,,No video
+471,5957,Bear 22,"Thursday, August 15, 2013",6:01 PM,61.0962378,-149.7720111,185,75,Unknown,,No video
+472,5991,Bear 22,"Friday, August 16, 2013",12:00 AM,61.0955334,-149.7551713,229,63,Unknown,,No video
+473,6020,Bear 22,"Friday, August 16, 2013",5:58 AM,61.0950231,-149.7555753,265,59,Unknown,,No video
+474,6051,Bear 22,"Friday, August 16, 2013",12:01 PM,61.0955697,-149.7553155,198,68,Unknown,,No video
+475,6087,Bear 22,"Friday, August 16, 2013",6:01 PM,61.0955064,-149.7639163,234,66,Unknown,,No video
+476,6122,Bear 22,"Saturday, August 17, 2013",12:01 AM,61.0956464,-149.7550112,233,68,Unknown,,No video
+477,6145,Bear 22,"Saturday, August 17, 2013",5:56 AM,61.0955808,-149.7550192,234,64,Unknown,,No video
+478,6179,Bear 22,"Saturday, August 17, 2013",12:00 PM,61.0938366,-149.7189186,329,68,Unknown,,No video
+479,6215,Bear 22,"Saturday, August 17, 2013",6:01 PM,61.1031685,-149.7095567,517,72,Unknown,,No video
+480,6248,Bear 22,"Sunday, August 18, 2013",12:00 AM,61.0961644,-149.7270746,281,64,Unknown,,No video
+481,6282,Bear 22,"Sunday, August 18, 2013",6:01 AM,61.0961478,-149.7271788,314,64,Unknown,,No video
+482,6349,Bear 22,"Sunday, August 18, 2013",6:01 PM,61.0945979,-149.7695183,244,70,Unknown,,No video
+483,6376,Bear 22,"Monday, August 19, 2013",12:01 AM,61.094546,-149.7743057,210,68,Unknown,,No video
+484,6394,Bear 22,"Monday, August 19, 2013",5:57 AM,61.0945703,-149.7742043,211,64,Unknown,,No video
+485,6430,Bear 22,"Monday, August 19, 2013",12:00 PM,61.0952297,-149.7692826,236,64,Unknown,,No video
+486,6464,Bear 22,"Monday, August 19, 2013",6:02 PM,61.0943819,-149.7663612,257,64,Unknown,,No video
+487,6500,Bear 22,"Tuesday, August 20, 2013",12:00 AM,61.0955345,-149.7553021,225,70,Unknown,,No video
+488,6534,Bear 22,"Tuesday, August 20, 2013",6:00 AM,61.0956989,-149.7541332,248,66,Unknown,,No video
+489,6570,Bear 22,"Tuesday, August 20, 2013",12:01 PM,61.0945522,-149.7217559,310,68,Unknown,,No video
+490,6604,Bear 22,"Tuesday, August 20, 2013",6:02 PM,61.0961934,-149.7268465,309,66,Unknown,,No video
+491,6640,Bear 22,"Wednesday, August 21, 2013",12:01 AM,61.0958849,-149.7282023,293,66,Unknown,,No video
