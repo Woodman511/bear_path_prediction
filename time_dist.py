@@ -88,7 +88,9 @@ def calculateSpeed(row: pd.Series) -> tuple[int, float]:
                     .strftime("%H:%M".replace(":", "")))
 
     # Only calculate speed if in the same time period
-    if timePeriod(row) == timePeriod(prevRow):
+    if (timePeriod(row) == timePeriod(prevRow)
+            and row["Bear_ID"] == prevRow["Bear_ID"]
+            and row["Date"] == prevRow["Date"]):
         # Calculate distance using lat/lon conversion
         differencePoint: tuple[float, float] = (
             fg.lat_lon_to_meters(currentCoords[0], currentCoords[1],
