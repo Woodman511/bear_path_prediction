@@ -1,3 +1,4 @@
+import numpy as np
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import cartopy.io.img_tiles as cimg
@@ -7,11 +8,12 @@ from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import Patch
 
 # Load the raw grid and geographic bounds from the input dataset.
-grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
-# Propagate the grid values to fill nearby empty cells.
-prob = propagate.propagate(grid)
+grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask = freqency_grid.get_grid()
+# Propagate the grid values to fill nearby empty cells, leaving water cells zero.
+prob = propagate.propagate(grid, land_mask=land_mask)
 
-def graph_data(data=prob):
+def graph_data(data=prob, mask=land_mask, name="unamed"):
+    data = np.where(mask, data, 0)
     plt.style.use('fast')
 
     # Create a transparent-to-red colormap for the overlay.
@@ -56,7 +58,7 @@ def graph_data(data=prob):
     plt.legend(handles=legend_elements, loc='upper right')
 
 
-    ca_map.set_title("Frequency Grid over Google Maps")
+    ca_map.set_title(name)
 
     #def add_line():
 
@@ -66,7 +68,7 @@ def graph_data(data=prob):
     
 if __name__ == "__main__":
     # Build the map and display the result.
-    graph_data()
-    graph_data(grid)
+    graph_data(name="probability_grid")
+    graph_data(grid, name="frequency_grid")
     #print(time_values_grid)
     plt.show()

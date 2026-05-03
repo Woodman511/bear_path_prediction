@@ -59,13 +59,12 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
-        grid[row][col] += tim_ajd.time_difference(user_time, timestamp,index_time=index)
+        grid[row][col] += 1
+        
+        tim_ajd.time_difference(user_time, timestamp,index_time=index)
 
-        if globe.is_land(lat, long):
-            grid[row][col] = -15
-
-        if tim_ajd.time_difference(user_time, timestamp) > 0:
-            print(tim_ajd.time_difference(user_time, timestamp))
+        #if tim_ajd.time_difference(user_time, timestamp) > 0:
+            #print(tim_ajd.time_difference(user_time, timestamp))
         #print(timestamp)
 
         #tim_ajd.time_difference(user_time, k, timestamp)
@@ -89,12 +88,17 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
     max_lat = min_lat + n_rows * lat_step_deg
     max_lon = min_lon + n_cols * lon_step_deg
 
-    #print(grid[grid > 1])
-    #grid = grid / grid.max()
+    # Mask out water cells so they remain zero in the final grid.
+    row_centers = min_lat + (np.arange(n_rows) + 0.5) * lat_step_deg
+    col_centers = min_lon + (np.arange(n_cols) + 0.5) * lon_step_deg
+    lat_centers = row_centers[:, None]
+    lon_centers = col_centers[None, :]
+    land_mask = globe.is_land(lat_centers, lon_centers)
+    grid[~land_mask] = 0
 
     np.log1p(grid, out=grid)
 
-    return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid
+    return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask
 
 
 if __name__ == "__main__":

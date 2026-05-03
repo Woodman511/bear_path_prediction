@@ -1,9 +1,14 @@
 import numpy as np
 
 
-def propagate(matrix):
+def propagate(matrix, land_mask=None):
+    if land_mask is None:
+        land_mask = np.ones_like(matrix, dtype=bool)
 
     def equation(grid, n, m):
+        if not land_mask[n, m]:
+            return 0
+
         rows, cols = grid.shape
         total = 0
         times = 0
