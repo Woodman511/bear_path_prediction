@@ -6,7 +6,7 @@ import random as rand
 #gp.plt.ion()
 
 # Create the map visualization
-ca_map = gp.graph_data()
+ca_map = gp.graph_data(name="Initial Probability Map")
 
 # Print the valid coordinate range for the loaded grid.
 print(f"Grid latitude range: {gp.lat_matrix.min():.6f} to {gp.lat_matrix.max():.6f}")
@@ -45,6 +45,9 @@ ca_map.plot(x_list, y_list,
             label='Start',
             linestyle='solid',
             linewidth=1)
+
+# Add a zoomed-in view around the bear path.
+gp.graph_zoomed_data(path=path, name="zoomed_bear_path")
 
 #gp.plt.pause(0.01)
 
