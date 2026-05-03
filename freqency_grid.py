@@ -14,7 +14,7 @@ def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
         return x, y
 
 
-def get_grid(grid_size = 100, data_file = 'BlackBear2013_data.csv'):
+def get_grid(grid_size = 100, data_file = 'bear_path_prediction\BlackBear2013_data.csv'):
     df = pd.read_csv(data_file)
 
     relx = df['Latitude'].min()
