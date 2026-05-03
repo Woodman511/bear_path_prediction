@@ -102,10 +102,17 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
     if path is not None and len(path) > 0:
         path_lats = np.array([lat_matrix[r, c] for r, c in path])
         path_lons = np.array([lon_matrix[r, c] for r, c in path])
+        row_indices = np.array([r for r, c in path])
+        col_indices = np.array([c for r, c in path])
         min_lat_path = max(min_lat, float(path_lats.min() - pad_degrees))
         max_lat_path = min(max_lat, float(path_lats.max() + pad_degrees))
         min_lon_path = max(min_lon, float(path_lons.min() - pad_degrees))
         max_lon_path = min(max_lon, float(path_lons.max() + pad_degrees))
+
+        row_min, row_max = row_indices.min(), row_indices.max()
+        col_min, col_max = col_indices.min(), col_indices.max()
+        data = data[row_min:row_max + 1, col_min:col_max + 1]
+        mask = mask[row_min:row_max + 1, col_min:col_max + 1]
     else:
         min_lon_path, max_lon_path, min_lat_path, max_lat_path = min_lon, max_lon, min_lat, max_lat
 
