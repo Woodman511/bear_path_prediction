@@ -25,7 +25,7 @@ def run(users_pos_row = 108, users_pos_col = 271):
         return neighbors    
     
     layers = [[ [[users_pos_row, users_pos_col]] ]]
-    for i in range(100):
+    for i in range(20):
         next_layer = []
         for path in layers[-1]:  # each path in the last layer
             current_pos = path[-1]  # last position in the path

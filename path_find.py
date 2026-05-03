@@ -51,9 +51,9 @@ def run(user_start_lon=None, user_start_lat=None):
                         best_val = grid[r, c]
                         best_pos = (r, c)
                         # Slightly reduce the value to discourage revisiting
-                        grid[r, c] -= 0.01
+                        grid[r, c] -= 0.1
         # Mark position as used (currently commented out)
-        used.add(best_pos)
+        #used.add(best_pos)
         return best_pos, used
 
     # Initialize used positions set
