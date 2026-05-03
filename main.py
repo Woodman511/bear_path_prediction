@@ -1,43 +1,38 @@
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+import cartopy.io.img_tiles as cimg
 import freqency_grid
 import propagate
 from matplotlib.colors import LinearSegmentedColormap
 
 
-white_to_red = LinearSegmentedColormap.from_list("wtr", ["white", "red"])
+white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (256, 0, 0, 1)])
 
 grid, min_lon, max_lon, min_lat, max_lat = freqency_grid.get_grid()
 prob = propagate.propagate(grid)
 
 
-plt.figure(figsize=(14, 6))
+plt.figure(figsize=(16, 10))
 ca_map = plt.axes(projection=ccrs.PlateCarree())
-#ca_map.add_feature(cfeature.LAND)
-#ca_map.add_feature(cfeature.OCEAN)
-#ca_map.add_feature(cfeature.COASTLINE)
-#ca_map.add_feature(cfeature.BORDERS, linestyle=':')
 ca_map.set_extent([min_lon, max_lon, min_lat, max_lat], crs=ccrs.PlateCarree())
-ca_map.add_feature(cfeature.COASTLINE.with_scale("50m"), linewidth=0.9, edgecolor="#4a6070")
-ca_map.add_feature(cfeature.BORDERS.with_scale("50m"),   linewidth=0.5, edgecolor="#888", linestyle="--")
-ca_map.add_feature(cfeature.RIVERS.with_scale("50m"),    edgecolor="#3B8BD4", linewidth=0.5)
-ca_map.add_feature(cfeature.LAKES.with_scale("50m"),     facecolor="#c8dff0")
 
 ca_map.xaxis.set_visible(True)
 ca_map.yaxis.set_visible(True)
 
+# Add Google Maps background tiles
+google_tiles = cimg.GoogleTiles(style='satellite')
+ca_map.add_image(google_tiles, 10, zorder=0)
 
-
-ca_map.imshow(grid,
+ca_map.imshow(prob,
                     origin='lower',
                     extent=[min_lon, max_lon, min_lat, max_lat],
                     transform=ccrs.PlateCarree(),
                     cmap=white_to_red,
                     interpolation='nearest',
-                    alpha=0.2
+                    alpha=1,
+                    zorder=1
 )
-ca_map.set_title("Frequency Grid")
+ca_map.set_title("Frequency Grid over Google Maps")
 #plt.colorbar(im1, ax=plt.gca(), orientation='vertical', label='Point count')
 
 '''
