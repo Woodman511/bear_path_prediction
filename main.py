@@ -1,15 +1,30 @@
 import graph_prob as gp
 import cartopy.crs as ccrs
 import path_find as pf
+import random as rand
+
+#gp.plt.ion()
 
 # Create the map visualization
 ca_map = gp.graph_data()
-# Print latitude and longitude matrices for debugging
-# print(gp.lat_matrix)
-# print(gp.lon_matrix)
 
-# Run path finding algorithm to get the bear movement path
-path = pf.run()
+# Print the valid coordinate range for the loaded grid.
+print(f"Grid latitude range: {gp.lat_matrix.min():.6f} to {gp.lat_matrix.max():.6f}")
+print(f"Grid longitude range: {gp.lon_matrix.min():.6f} to {gp.lon_matrix.max():.6f}")
+
+# Example start coordinate inside the dataset bounds.
+# Replace these values with the desired starting latitude/longitude.
+user_start_lat = 61.180106
+user_start_lon = -149.787058
+
+start_row, start_col = pf.nearest_grid_cell(gp.lat_matrix, gp.lon_matrix, user_start_lat, user_start_lon)
+print(f"Nearest grid cell for start coordinate ({user_start_lat}, {user_start_lon}) -> row={start_row}, col={start_col}")
+
+# Run path finding algorithm to get the bear movement path using the nearest grid cell for the given lon/lat.
+path = pf.run(
+    user_start_lon=user_start_lon,
+    user_start_lat=user_start_lat,
+)
 
 # Convert grid indices to geographic coordinates for plotting
 first = True
@@ -30,5 +45,7 @@ ca_map.plot(x_list, y_list,
             label='Start',
             linestyle='solid',
             linewidth=1)
+
+#gp.plt.pause(0.01)
 
 gp.plt.show()

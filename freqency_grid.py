@@ -104,5 +104,30 @@ def get_grid(index = 0 , grid_size = 100, data_file = data):
     return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix
 
 
+def nearest_grid_cell(lat_matrix, lon_matrix, target_lat, target_lon):
+    """Find the nearest grid cell index for a latitude/longitude coordinate.
+
+    This uses the haversine distance over the globe to account for the
+    different physical scaling of latitude and longitude.
+    """
+    if lat_matrix.shape != lon_matrix.shape:
+        raise ValueError("lat_matrix and lon_matrix must have the same shape")
+
+    # Earth radius in meters.
+    R = 6371000.0
+    lat1 = np.radians(lat_matrix)
+    lon1 = np.radians(lon_matrix)
+    lat2 = np.radians(target_lat)
+    lon2 = np.radians(target_lon)
+
+    dlat = lat1 - lat2
+    dlon = lon1 - lon2
+    a = np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2
+    dist = 2 * R * np.arcsin(np.sqrt(a))
+
+    idx = np.unravel_index(np.argmin(dist), dist.shape)
+    return idx
+
+
 if __name__ == "__main__":
     get_grid()
