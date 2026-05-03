@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import time_adjusted_grid as tim_ajd
+from global_land_mask import globe
 
 #Convert lat/lon to meters relative to the minimum lat/lon
 METERS_PER_LAT_DEGREE = 111320.0
@@ -36,6 +37,7 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
         x_list.append(x)
         y_list.append(y)
         time_list.append(timestamp)
+            
 
     # Determine grid dimensions
     x_min, x_max = 0, max(x_list) + GRID_SIZE
@@ -52,13 +54,15 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
     #TODO: add input to set the user time that a bear was seen
     user_time = "6:00"
 
-    for x, y, timestamp in zip(x_list, y_list, time_list):
+    for x, y, timestamp, lat, long in zip(x_list, y_list, time_list, df['Latitude'], df['Longitude']):
         col = int(x // GRID_SIZE)
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
         grid[row][col] += tim_ajd.time_difference(user_time, timestamp,index_time=index)
-        #tim_ajd.time_difference(user_time, k, timestamp)
+
+        if globe.is_land(lat, long):
+            grid[row][col] = -15
 
         if tim_ajd.time_difference(user_time, timestamp) > 0:
             print(tim_ajd.time_difference(user_time, timestamp))
