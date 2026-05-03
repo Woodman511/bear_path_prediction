@@ -59,7 +59,7 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
-        grid[row][col] += 1
+        grid[row][col] += 0.5
         
         tim_ajd.time_difference(user_time, timestamp,index_time=index)
 
@@ -98,7 +98,10 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
 
     np.log1p(grid, out=grid)
 
-    return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask
+    lat_matrix = lat_centers.repeat(n_cols, axis=1)
+    lon_matrix = lon_centers.repeat(n_rows, axis=0)
+
+    return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix
 
 
 if __name__ == "__main__":

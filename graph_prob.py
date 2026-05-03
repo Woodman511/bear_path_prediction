@@ -8,7 +8,7 @@ from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import Patch
 
 # Load the raw grid and geographic bounds from the input dataset.
-grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask = freqency_grid.get_grid()
+grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix = freqency_grid.get_grid()
 # Propagate the grid values to fill nearby empty cells, leaving water cells zero.
 prob = propagate.propagate(grid, land_mask=land_mask)
 
@@ -56,10 +56,11 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
             Patch(facecolor='none', edgecolor='black', label='Low Probability')
         ]
     plt.legend(handles=legend_elements, loc='upper right')
+    #plt.plot(lat_matrix[29, 20], lon_matrix[29, 20], markersize=20, color="blue", zorder=2)
 
 
     ca_map.set_title(name)
-
+    return ca_map
     #def add_line():
 
         
@@ -69,6 +70,6 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
 if __name__ == "__main__":
     # Build the map and display the result.
     graph_data(name="probability_grid")
-    graph_data(grid, name="frequency_grid")
+    #graph_data(grid, name="frequency_grid")
     #print(time_values_grid)
     plt.show()
