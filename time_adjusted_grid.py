@@ -26,4 +26,4 @@ def time_difference(user_input, scale, index_time = 1, index_row = 1):
     else:
         return 1 / (difference / scale)
 
-print(time_difference("12:00"))
+#print(time_difference("12:00"))
