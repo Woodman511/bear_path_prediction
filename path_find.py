@@ -3,7 +3,7 @@ import propagate
 import numpy as np
 
 
-def run(users_pos_row, users_pos_col):
+def run(users_pos_row = 108, users_pos_col = 271):
     # Load the raw grid and geographic bounds from the input dataset.
     grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
     # Propagate the grid values to fill nearby empty cells.
