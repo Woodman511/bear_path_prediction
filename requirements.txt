@@ -3,3 +3,9 @@ pandas
 matplotlib
 cartopy
 scipy
+global-land-mask
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+pytest-mock>=3.10

@@ -1,54 +1,74 @@
 # Bear Path Prediction
 
-A geospatial analysis project that predicts bear movement patterns and generates probability heatmaps based on historical GPS tracking data.
+A geospatial analysis project for predicting bear movement patterns, generating probability heatmaps, and simulating movement paths from historical GPS tracking data.
 
 ## Overview
 
-This project analyzes bear tracking data to create frequency grids and probability heatmaps showing areas where bears are likely to be found. It supports multiple bear species and years of tracking data.
+This repository processes GPS tracking records for bears and converts them into a land-based probability grid. The workflow includes:
+- building a frequency grid from location points,
+- optionally weighting observations by time of day,
+- propagating values into nearby cells,
+- visualizing results on satellite imagery,
+- and simulating a greedy bear movement path.
 
 ## Features
 
-- **Frequency Grid Analysis**: Converts GPS coordinates into a grid-based frequency map with configurable cell sizes (default 100m)
-- **Time-Adjusted Weighting**: Weights observations based on time of day to account for temporal patterns in bear behavior
-- **Grid Propagation**: Fills empty grid cells using neighboring cell values to create smooth probability distributions
-- **Geographic Visualization**: Overlays probability heatmaps on Google satellite imagery using Cartopy
-- **Multi-Species Support**: Analyze different bear species (Black Bear, Brown Bear) across different years
+- **Grid-based probability model**: Converts latitude/longitude points into a cell grid for spatial analysis.
+- **Time-adjusted weighting**: Supports temporal weighting of observations.
+- **Propagation smoothing**: Spreads probability values into adjacent cells for smoother maps.
+- **Satellite visualization**: Renders heatmaps over Google satellite tiles using Cartopy.
+- **Greedy path simulation**: Walks through the highest-probability neighbors from a start point.
+- **Multiple datasets**: Includes historical bear tracking data for Bears.
 
 ## Data
 
-The project uses CSV datasets containing bear GPS tracking data:
-- `BlackBear2012_data.csv` - Black bear tracking data from 2012
-- `BlackBear2013_data.csv` - Black bear tracking data from 2013
-- `BrownBear_data.csv` - Brown bear tracking data
+The project loads the following CSV data files:
+- `BlackBear2012_data.csv`
+- `BlackBear2013_data.csv`
 
-Expected CSV columns:
-- `Latitude` - GPS latitude coordinate
-- `Longitude` - GPS longitude coordinate
-- `Time` - Time of observation (12-hour format, e.g., "12:30 PM")
+Required columns in each CSV:
+- `Latitude`
+- `Longitude`
+- `Time` (e.g. `12:30 PM`) (Not yet implemented fully)
 
 ## Project Structure
 
-- `main.py` - Entry point that generates and displays visualizations
-- `freqency_grid.py` - Creates frequency grids from raw tracking data
-- `graph_prob.py` - Handles geographic visualization and heatmap rendering
-- `propagate.py` - Smooths the grid by propagating values to nearby empty cells
-- `time_adjusted_grid.py` - Calculates time-based weights for observations
-- `time_dist.py` - Analyzes time periods and movement speeds
+- `main.py` - Main entry point that renders the probability heatmap and simulated bear path.
+- `freqency_grid.py` - Builds the raw grid from CSV coordinates and applies time-based analysis.
+- `graph_prob.py` - Visualizes the probability grid and zoomed path map using Cartopy.
+- `propagate.py` - Smooths empty grid cells by propagating values from nearby land cells.
+- `time_adjusted_grid.py` - Computes time differences and supports time-weighting logic.
+- `time_dist.py` - Analyzes time distributions and movement speed patterns.
+- `path_find.py` - Simulates a sequential path through the grid using greedy adjacent-cell selection.
+
+## Installation
+
+1. Create and activate a Python environment.
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
+
+Run the main analysis script from the repository root:
 
 ```bash
 python main.py
 ```
 
-This will generate and display probability heatmaps on an interactive map.
+This will:
+- build the probability grid from the included CSV files,
+- display the complete probability heatmap,
+- simulate a bear movement path,
+- and open a zoomed-in map of the path.
 
-## Configuration
+## Notes
 
-In `freqency_grid.py`, you can customize:
-- `grid_size` - Cell size in meters (default: 100m)
-- `data_file` - Which dataset to analyze (default: 'BlackBear2012_data.csv')
-- `user_time` - Reference time for time-adjusted weighting (default: "12:00")
+- `main.py` Change the variable to change the bear start location.
+- The `graph_prob.py` visualization loads Google satellite tiles and requires internet access.
+- The project file is named `freqency_grid.py`, so use that exact name when reading or importing.
 
 ## Dependencies
 
@@ -56,4 +76,6 @@ In `freqency_grid.py`, you can customize:
 - pandas
 - matplotlib
 - cartopy
+- scipy
+- global-land-mask
 
