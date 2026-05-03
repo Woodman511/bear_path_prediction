@@ -36,7 +36,7 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
     white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 1)])
     # Create the figure and geographic axes using Plate Carree projection.
     fig = plt.figure(figsize=(16, 10))
-    fig.subplots_adjust(left=0.02, right=0.98, top=0.96, bottom=0.04)
+    fig.subplots_adjust(left=0.08, right=0.98, top=0.96, bottom=0.04)
     ca_map = plt.axes(projection=ccrs.PlateCarree())
 
     # Set the map extent to the bounds of the loaded dataset.
@@ -59,9 +59,10 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
         cmap=white_to_red,
         interpolation='nearest',
         alpha=1,
-        zorder=1, 
-        #norm=LogNorm(vmin=0.011, vmax=data.max())
+        zorder=1
     )
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
 
     # For debugging purposes: Add a colorbar showing numeric values for the heatmap.
     #plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
@@ -109,15 +110,23 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
         min_lon_path, max_lon_path, min_lat_path, max_lat_path = min_lon, max_lon, min_lat, max_lat
 
     fig = plt.figure(figsize=(16, 10))
-    fig.subplots_adjust(left=0.02, right=0.98, top=0.96, bottom=0.04)
+    fig.subplots_adjust(left=0.04, right=0.98, top=0.96, bottom=0.08)
     ca_zoom = plt.axes(projection=ccrs.PlateCarree())
     ca_zoom.set_extent([min_lon_path, max_lon_path, min_lat_path, max_lat_path], crs=ccrs.PlateCarree())
+
+    # Show map axes and tick labels.
+    ca_zoom.xaxis.set_visible(True)
+    ca_zoom.yaxis.set_visible(True)
+
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
 
     # Updated Google satellite imagery for the zoomed graph
     google_tiles = cimg.GoogleTiles(style='satellite')
     ca_zoom.add_image(google_tiles, 12, zorder=0, alpha=0.9)
 
     white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 1)])
+
     im = ca_zoom.imshow(
         data,
         origin='lower',
@@ -141,7 +150,7 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
             markersize=4,
             transform=ccrs.PlateCarree(),
             zorder=2,
-            label='Bear Path',
+            label='Bear Path'
         )
 
     #plt.colorbar(im, ax=ca_zoom, orientation='vertical', pad=0.02)

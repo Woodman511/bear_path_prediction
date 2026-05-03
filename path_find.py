@@ -77,11 +77,11 @@ def run(user_start_lon=None, user_start_lat=None):
     for step in range(100):
         pos, used = next_position(prob, pos[0], pos[1], used)
         path.append(pos)
-        '''
+        
         if step % 100 == 0:
             grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix = freqency_grid.get_grid(step)
             prob = propagate.propagate(grid, land_mask=land_mask)
-        '''
+        
 
     print(f"Max index: ({row_idx}, {col_idx})")
     print(f"End index: ({pos[0]}, {pos[1]})")
