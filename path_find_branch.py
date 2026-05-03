@@ -31,7 +31,8 @@ def run(users_pos_row = 108, users_pos_col = 271):
             current_pos = path[-1]  # last position in the path
             neighbors = next_position(current_pos[0], current_pos[1], prob)
             for neighbor in neighbors:
-                next_layer.append(path + [neighbor])  # extend the path
+                if neighbor not in path:
+                    next_layer.append(path + [neighbor])  # extend the path
         
         vals = [sum(prob[pos[0], pos[1]] for pos in path) for path in next_layer]
 
@@ -55,8 +56,8 @@ def run(users_pos_row = 108, users_pos_col = 271):
     final_scored.sort(key=lambda x: x[0], reverse=True)
 
     top_3 = final_scored[:3]
-    for rank, (score, path) in enumerate(top_3, 1):
-        print(f"Rank {rank} | Score: {score:.4f} | Path: {path}")
+    #for rank, (score, path) in enumerate(top_3, 1):
+        #print(f"Rank {rank} | Score: {score:.4f} | Path: {path}")
     
     print(path for _, path in top_3)
     return [path for _, path in top_3]
