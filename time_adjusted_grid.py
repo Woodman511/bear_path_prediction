@@ -18,7 +18,7 @@ def time_difference(user_input, time_point, index_time = 1):
     dt_input = datetime.strptime(f"{h:02d}:{m:02d}", "%H:%M")
     dt_csv   = datetime.strptime(military_time, "%H:%M")
 
-    difference =  int(((dt_input - dt_csv).seconds)/60)
+    difference =  int(((dt_input - dt_csv).seconds)/60) + index_time
     if difference < 0:
         difference += 24
     #print(difference)

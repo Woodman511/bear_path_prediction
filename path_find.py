@@ -5,11 +5,9 @@ import numpy as np
 
 def run():
     # Load the raw grid and geographic bounds from the input dataset.
-    grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
+    grid = freqency_grid.get_grid()
     # Propagate the grid values to fill nearby empty cells.
     prob = propagate.propagate(grid)
-
-
 
     def next_position(grid, current_row, current_col, used):
         best_val = -1
@@ -40,7 +38,9 @@ def run():
     for step in range(10000):
         pos, used = next_position(prob, pos[0], pos[1], used)
         path.append(pos)
-        print(f"current index: ({pos[0]}, {pos[1]})")
+        grid = freqency_grid.get_grid(step)
+        prob = propagate.propagate(grid)
+
 
     print(f"Max index: ({row_idx}, {col_idx})")
     print(f"End index: ({pos[0]}, {pos[1]})")
