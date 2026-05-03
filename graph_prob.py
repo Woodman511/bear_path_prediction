@@ -4,46 +4,63 @@ import cartopy.io.img_tiles as cimg
 import freqency_grid
 import propagate
 from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.patches import Patch
 
-
-white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (256, 0, 0, 1)])
-
-grid, min_lon, max_lon, min_lat, max_lat = freqency_grid.get_grid()
+# Load the raw grid and geographic bounds from the input dataset.
+grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
+# Propagate the grid values to fill nearby empty cells.
 prob = propagate.propagate(grid)
 
+def graph_data(data=prob):
+    # Create a transparent-to-red colormap for the overlay.
+    # The first color is fully transparent, and the final color is solid red.
+    white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (1, 0, 0, 1)])
 
-plt.figure(figsize=(16, 10))
-ca_map = plt.axes(projection=ccrs.PlateCarree())
-ca_map.set_extent([min_lon, max_lon, min_lat, max_lat], crs=ccrs.PlateCarree())
+    # Create the figure and geographic axes using Plate Carree projection.
+    plt.figure(figsize=(16, 10))
+    ca_map = plt.axes(projection=ccrs.PlateCarree())
 
-ca_map.xaxis.set_visible(True)
-ca_map.yaxis.set_visible(True)
+    # Set the map extent to the bounds of the loaded dataset.
+    ca_map.set_extent([min_lon, max_lon, min_lat, max_lat], crs=ccrs.PlateCarree())
 
-# Add Google Maps background tiles
-google_tiles = cimg.GoogleTiles(style='satellite')
-ca_map.add_image(google_tiles, 10, zorder=0)
+    # Show map axes and tick labels.
+    ca_map.xaxis.set_visible(True)
+    ca_map.yaxis.set_visible(True)
 
-ca_map.imshow(prob,
-                    origin='lower',
-                    extent=[min_lon, max_lon, min_lat, max_lat],
-                    transform=ccrs.PlateCarree(),
-                    cmap=white_to_red,
-                    interpolation='nearest',
-                    alpha=1,
-                    zorder=1
-)
-ca_map.set_title("Frequency Grid over Google Maps")
-#plt.colorbar(im1, ax=plt.gca(), orientation='vertical', label='Point count')
+    # Add Google satellite imagery as the map background.
+    google_tiles = cimg.GoogleTiles(style='satellite')
+    ca_map.add_image(google_tiles, 10, zorder=0, alpha=0.7)
 
-'''
-fig.colorbar(im1, ax=ax1, fraction=0.046, pad=0.04)
+    # Draw the propagated probability grid on top of the background.
+    ca_map.imshow(
+        data,
+        origin='lower',
+        extent=[min_lon, max_lon, min_lat, max_lat],
+        transform=ccrs.PlateCarree(),
+        cmap=white_to_red,
+        interpolation='nearest',
+        alpha=1,
+        zorder=1
+    )
 
-im2 = ax2.imshow(prob,
-            cmap=white_to_red,
-            interpolation='nearest')
-ax2.set_title("Propagated Probability")
+    legend_elements = [
+            Patch(facecolor='red', edgecolor='red', label='High Probability'),
+            Patch(facecolor='none', edgecolor='black', label='Low Probability')
+        ]
+    plt.legend(handles=legend_elements, loc='upper right')
 
-fig.colorbar(im2, ax=ax2, fraction=0.046, pad=0.04)
-'''
 
-plt.show()
+    ca_map.set_title("Frequency Grid over Google Maps")
+
+    #def add_line():
+
+        
+        
+
+    
+if __name__ == "__main__":
+    # Build the map and display the result.
+    graph_data()
+    graph_data(grid)
+    print(time_values_grid)
+    plt.show()
