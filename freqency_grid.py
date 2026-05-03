@@ -13,9 +13,12 @@ def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
         
         return x, y
 
+data = ["BlackBear2012_data.csv", "BlackBear2013_data.csv"]
+def get_grid(grid_size = 100, data_file = data):
+    #df = pd.DataFrame()
+    df = pd.concat([pd.read_csv(f) for f in data_file], ignore_index=True)
 
-def get_grid(grid_size = 100, data_file = 'BlackBear2013_data.csv'):
-    df = pd.read_csv(data_file)
+
 
     relx = df['Latitude'].min()
     rely = df['Longitude'].min()
@@ -46,7 +49,8 @@ def get_grid(grid_size = 100, data_file = 'BlackBear2013_data.csv'):
     grid = np.zeros((n_rows, n_cols), dtype=float)
     time_values_grid = [[[] for _ in range(n_cols)] for _ in range(n_rows)]
 
-    user_time = "12:00"
+    #TODO: add input to set the user time that a bear was seen
+    user_time = "6:00"
 
     for x, y, timestamp in zip(x_list, y_list, time_list):
         col = int(x // GRID_SIZE)
@@ -81,10 +85,12 @@ def get_grid(grid_size = 100, data_file = 'BlackBear2013_data.csv'):
     max_lat = min_lat + n_rows * lat_step_deg
     max_lon = min_lon + n_cols * lon_step_deg
 
-    print(grid[grid > 1])
+    #print(grid[grid > 1])
+    #grid = grid / grid.max()
+
+    np.log1p(grid, out=grid)
 
     return grid, min_lon, max_lon, min_lat, max_lat, time_values_grid
-
 
 
 if __name__ == "__main__":

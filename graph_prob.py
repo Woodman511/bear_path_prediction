@@ -12,6 +12,8 @@ grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_g
 prob = propagate.propagate(grid)
 
 def graph_data(data=prob):
+    plt.style.use('fast')
+
     # Create a transparent-to-red colormap for the overlay.
     # The first color is fully transparent, and the final color is solid red.
     white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (1, 0, 0, 1)])
@@ -40,11 +42,12 @@ def graph_data(data=prob):
         cmap=white_to_red,
         interpolation='nearest',
         alpha=1,
-        zorder=1
+        zorder=1, 
+        #norm=LogNorm(vmin=0.011, vmax=data.max())
     )
 
-    # Add a colorbar showing numeric values for the heatmap.
-    plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
+    #For debugging purposes: Add a colorbar showing numeric values for the heatmap.
+        #plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
 
     legend_elements = [
             Patch(facecolor='red', edgecolor='red', label='High Probability'),

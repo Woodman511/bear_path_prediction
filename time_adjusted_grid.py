@@ -28,6 +28,6 @@ def time_difference(user_input, time_point, index_time = 1):
     else:
         if 1/difference > 1:
             print(1/difference)
-        return 1 / (difference)
+        return np.sqrt(1 / (difference))
 
 #print(time_difference("12:00"))
