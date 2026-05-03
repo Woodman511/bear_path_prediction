@@ -136,7 +136,7 @@ lon_entry.pack()
 lon_entry.insert(0, "-149.787058")  # Default to Anchorage, Alaska longitude
 
 ctk.CTkLabel(root, font=fnt3, text="").pack()  # Spacer
-ctk.CTkButton(root, text="Run Path Simulation", font=fnt2, command=lambda: run_visualization(float(lat_entry.get()), float(lon_entry.get()))).pack(pady=20)
+ctk.CTkButton(root, text="Run Path Simulation", font=fnt2, command=lambda: run_branch_visualization(float(lat_entry.get()), float(lon_entry.get()))).pack(pady=20)
 
 root.update()
 # Create initial probability map visualization

@@ -132,7 +132,7 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
     google_tiles = cimg.GoogleTiles(style='satellite')
     ca_zoom.add_image(google_tiles, 12, zorder=0, alpha=0.9)
 
-    white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 1)])
+    white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 0.5)])
 
     im = ca_zoom.imshow(
         data,
