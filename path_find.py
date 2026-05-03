@@ -1,6 +1,8 @@
 import freqency_grid
 import propagate
 import numpy as np
+
+
 def run():
     # Load the raw grid and geographic bounds from the input dataset.
     grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
@@ -33,13 +35,17 @@ def run():
 
     used.add((row_idx, col_idx))
     pos = (row_idx, col_idx)
+    path = [pos]
 
-    for step in range(100):
-        pos, used = next_position(grid, pos[0], pos[1], used)
+    for step in range(10000):
+        pos, used = next_position(prob, pos[0], pos[1], used)
+        path.append(pos)
         print(f"current index: ({pos[0]}, {pos[1]})")
-        
 
     print(f"Max index: ({row_idx}, {col_idx})")
-    print(f"Max index: ({pos[0]}, {pos[1]})")
+    print(f"End index: ({pos[0]}, {pos[1]})")
 
-    return pos
+    return path
+
+if __name__ == "__main__":
+    path = run()
