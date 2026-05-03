@@ -31,8 +31,7 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
 
     # Create a transparent-to-red colormap for the overlay.
     # The first color is fully transparent, and the final color is solid red.
-    white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (1, 0, 0, 1)])
-
+    white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 1)])
     # Create the figure and geographic axes using Plate Carree projection.
     plt.figure(figsize=(16, 10))
     ca_map = plt.axes(projection=ccrs.PlateCarree())
@@ -46,7 +45,7 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
 
     # Add Google satellite imagery as the map background.
     google_tiles = cimg.GoogleTiles(style='satellite')
-    ca_map.add_image(google_tiles, 10, zorder=0, alpha=0.7)
+    ca_map.add_image(google_tiles, 10, zorder=0, alpha=0.9)
 
     # Draw the propagated probability grid on top of the background.
     im = ca_map.imshow(
@@ -62,7 +61,7 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
     )
 
     # For debugging purposes: Add a colorbar showing numeric values for the heatmap.
-    # plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
+    plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
 
     # Add legend elements
     legend_elements = [

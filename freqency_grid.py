@@ -59,7 +59,7 @@ def get_grid(index = 0 , grid_size = 100, data_file = data):
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
-        grid[row][col] += 1
+        grid[row][col] += 0.5
         
         tim_ajd.time_difference(user_time, timestamp,index_time=index)
 

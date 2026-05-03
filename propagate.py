@@ -54,7 +54,7 @@ def propagate(matrix, land_mask=None):
             return 0
 
         # Return average with small penalty to prevent over-propagation
-        return total / times - 0.001 / times
+        return total / times - 0.05 / times
 
     # Iterative propagation: read from current, write to next_grid
     # This prevents new fills from influencing each other in the same wave
