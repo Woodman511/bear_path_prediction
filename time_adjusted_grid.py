@@ -7,9 +7,9 @@ def time_difference(user_input, scale, index_time = 1, index_row = 1):
     h, m = map(int, user_input.split(':'))
     input_time = time(hour=h, minute=m)
 
-    BlackBear2012 = pd.read_csv('bear_path_prediction/BlackBear2012_data.csv')
+    BrownBear = pd.read_csv('bear_path_prediction/BrownBear_data.csv')
 
-    time_12hr = str(BlackBear2012.iat[index_row, 4])
+    time_12hr = str(BrownBear.iat[index_row, 4])
 
     dt_obj = datetime.strptime(time_12hr, "%I:%M %p")
     military_time = dt_obj.strftime("%H:%M")
