@@ -18,13 +18,16 @@ def time_difference(user_input, scale, time_point, index_time = 1, ):
     dt_input = datetime.strptime(f"{h:02d}:{m:02d}", "%H:%M")
     dt_csv   = datetime.strptime(military_time, "%H:%M")
 
-    difference =  ((dt_input - dt_csv).seconds)/60
+    difference =  int(((dt_input - dt_csv).seconds)/60)
     if difference < 0:
         difference += 24 
-    
+    #print(difference)
+    #print(difference / scale)
     if difference == 0:
         return 1
     else:
-        return 1 / (difference / scale)
+        if 1/difference > 1:
+            print(1/difference)
+        return 1 / (difference)
 
 #print(time_difference("12:00"))

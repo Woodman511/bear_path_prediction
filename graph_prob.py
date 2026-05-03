@@ -32,7 +32,7 @@ def graph_data(data=prob):
     ca_map.add_image(google_tiles, 10, zorder=0, alpha=0.7)
 
     # Draw the propagated probability grid on top of the background.
-    ca_map.imshow(
+    im = ca_map.imshow(
         data,
         origin='lower',
         extent=[min_lon, max_lon, min_lat, max_lat],
@@ -42,6 +42,9 @@ def graph_data(data=prob):
         alpha=1,
         zorder=1
     )
+
+    # Add a colorbar showing numeric values for the heatmap.
+    plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
 
     legend_elements = [
             Patch(facecolor='red', edgecolor='red', label='High Probability'),
@@ -62,5 +65,5 @@ if __name__ == "__main__":
     # Build the map and display the result.
     graph_data()
     graph_data(grid)
-    print(time_values_grid)
+    #print(time_values_grid)
     plt.show()
