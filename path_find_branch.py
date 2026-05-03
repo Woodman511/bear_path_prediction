@@ -55,7 +55,12 @@ def run(users_pos_row = 108, users_pos_col = 271):
     final_scored = [(sum(prob[pos[0], pos[1]] for pos in path), path) for path in layers[-1]]
     final_scored.sort(key=lambda x: x[0], reverse=True)
 
-    top_3 = final_scored[:3]
+    top_10 = final_scored[:10]
+    
+    indices = np.random.choice(len(top_10), size=3, replace=False)
+    top_3 = [top_10[i] for i in indices]
+   
+    
     #for rank, (score, path) in enumerate(top_3, 1):
         #print(f"Rank {rank} | Score: {score:.4f} | Path: {path}")
     
