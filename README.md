@@ -4,7 +4,7 @@ A geospatial analysis project for predicting bear movement patterns, generating 
 
 ## Overview
 
-This repository processes GPS tracking records for bears and converts them into a land-based probability grid. The workflow includes:
+This repository processes GPS tracking records for bears and converts them into a land-based probability grid. The project includes:
 - building a frequency grid from location points,
 - optionally weighting observations by time of day,
 - propagating values into nearby cells,
@@ -38,7 +38,8 @@ Required columns in each CSV:
 - `graph_prob.py` - Visualizes the probability grid and zoomed path map using Cartopy.
 - `propagate.py` - Smooths empty grid cells by propagating values from nearby land cells.
 - `time_adjusted_grid.py` - Computes time differences and supports time-weighting logic.
-- `time_dist.py` - Analyzes time distributions and movement speed patterns.
+- `time_dist.py` - Analyzes time distributions and movement speed patterns. Not currently implemented, but could be used to
+  modify grid path/distance based on expected bear speed from time of day.
 - `path_find.py` - Simulates a sequential path through the grid using greedy adjacent-cell selection.
 
 ## Installation
@@ -59,6 +60,7 @@ python main.py
 ```
 
 This will:
+- prompt for starting latitude and longitude coordinates from tkinter UI,
 - build the probability grid from the included CSV files,
 - display the complete probability heatmap,
 - simulate a bear movement path,
@@ -66,7 +68,6 @@ This will:
 
 ## Notes
 
-- `main.py` Change the variable to change the bear start location.
 - The `graph_prob.py` visualization loads Google satellite tiles and requires internet access.
 - The project file is named `freqency_grid.py`, so use that exact name when reading or importing.
 
