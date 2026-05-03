@@ -5,7 +5,7 @@ import numpy as np
 
 def run(users_pos_row = 108, users_pos_col = 271):
     # Load the raw grid and geographic bounds from the input dataset.
-    grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
+    grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix = freqency_grid.get_grid()
     # Propagate the grid values to fill nearby empty cells.
     prob = propagate.propagate(grid)
 
@@ -25,7 +25,7 @@ def run(users_pos_row = 108, users_pos_col = 271):
         return neighbors    
     
     layers = [[ [[users_pos_row, users_pos_col]] ]]
-    for i in range(600):
+    for i in range(100):
         next_layer = []
         for path in layers[-1]:  # each path in the last layer
             current_pos = path[-1]  # last position in the path
@@ -58,6 +58,7 @@ def run(users_pos_row = 108, users_pos_col = 271):
     for rank, (score, path) in enumerate(top_3, 1):
         print(f"Rank {rank} | Score: {score:.4f} | Path: {path}")
     
+    print(path for _, path in top_3)
     return [path for _, path in top_3]
     
 run()
