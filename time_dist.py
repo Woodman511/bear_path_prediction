@@ -123,6 +123,9 @@ def cleanDistData(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def expectedTimeDistance(data: pd.DataFrame) -> pd.DataFrame:
+    return cleanDistData(data.apply(calculateSpeed, axis=1))
+
 def main() -> None:
     """
     Main function to process black bear speed data and display results.
