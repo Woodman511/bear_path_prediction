@@ -39,14 +39,12 @@ def run_branch_visualization(user_start_lat, user_start_lon):
 
         # Convert grid indices to geographic coordinates for plotting
     first = True
+    x_list = []
+    y_list = []
 
-    for n in paths:
-        x_list = []
-        y_list = []
-
-        for x, y in n:
-            x_list.append(gp.lon_matrix[x,y])
-            y_list.append(gp.lat_matrix[x,y])
+    for x, y in paths:
+        x_list.append(gp.lon_matrix[x,y])
+        y_list.append(gp.lat_matrix[x,y])
 
         # Plot the path on the map
         ca_map.plot(x_list, y_list,
@@ -60,8 +58,8 @@ def run_branch_visualization(user_start_lat, user_start_lon):
                     linewidth=1)
 
     # Add a zoomed-in view around the bear path.
-    for n in paths:
-        gp.graph_zoomed_data(path=n, name="Zoomed Bear Path")
+    #for n in paths:
+    gp.graph_zoomed_data(path=paths, name="Zoomed Bear Path")
 
     root.quit()
     root.destroy() # Close the Tkinter window after plotting

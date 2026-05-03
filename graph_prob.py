@@ -134,6 +134,7 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
 
     white_to_red = LinearSegmentedColormap.from_list("wtr", [(0, 0, 0, 0), (3, 0, 0, 0.5)])
 
+    
     im = ca_zoom.imshow(
         data,
         origin='lower',
@@ -141,9 +142,10 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
         transform=ccrs.PlateCarree(),
         cmap=white_to_red,
         interpolation='nearest',
-        alpha=1,
+        alpha=0,
         zorder=1,
     )
+    
 
     if path is not None and len(path) > 0:
         path_lats = np.array([lat_matrix[r, c] for r, c in path])
@@ -162,10 +164,13 @@ def graph_zoomed_data(data=prob, mask=land_mask, path=None, name="zoomed_probabi
 
     #plt.colorbar(im, ax=ca_zoom, orientation='vertical', pad=0.02)
 
+    
     legend_elements = [
-        Patch(facecolor='red', edgecolor='black', label='High Probability'),
-        Patch(facecolor=(1,0,0,0.2), edgecolor='black', label='Low Probability')
+        #Patch(facecolor='red', edgecolor='black', label='High Probability'),
+        #Patch(facecolor=(1,0,0,0.2), edgecolor='black', label='Low #Probability')
     ]
+    
+
     if path is not None and len(path) > 0:
         legend_elements.append(Line2D([0], [0], color='blue', lw=2, label='Bear Path'))
 
