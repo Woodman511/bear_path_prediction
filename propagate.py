@@ -24,7 +24,7 @@ def propagate(matrix):
         if times == 0:
             return 0
 
-        return total / times - 0.01 / times
+        return total / times - 0.1 / times
 
 
     # Each pass reads from `current`, writes into `next_grid`

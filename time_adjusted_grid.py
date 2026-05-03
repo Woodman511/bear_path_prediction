@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 from datetime import time
 
-def time_difference(user_input, scale, time_point, index_time = 1, ):
+def time_difference(user_input, time_point, index_time = 1):
     h, m = map(int, user_input.split(':'))
     
     #input_time = time(hour=h, minute=m)
@@ -20,7 +20,7 @@ def time_difference(user_input, scale, time_point, index_time = 1, ):
 
     difference =  int(((dt_input - dt_csv).seconds)/60)
     if difference < 0:
-        difference += 24 
+        difference += 24
     #print(difference)
     #print(difference / scale)
     if difference == 0:
