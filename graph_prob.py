@@ -13,7 +13,20 @@ grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matri
 prob = propagate.propagate(grid, land_mask=land_mask)
 
 def graph_data(data=prob, mask=land_mask, name="unamed"):
+    """
+    Graph the probability data on a map with satellite imagery background.
+
+    Args:
+        data (numpy.ndarray): The grid data to visualize
+        mask (numpy.ndarray): Boolean mask indicating land cells
+        name (str): Title for the plot
+
+    Returns:
+        matplotlib.axes.Axes: The map axes object
+    """
+    # Apply land mask to data (set water cells to 0)
     data = np.where(mask, data, 0)
+    # Use a fast matplotlib style for better performance
     plt.style.use('fast')
 
     # Create a transparent-to-red colormap for the overlay.
@@ -48,17 +61,19 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
         #norm=LogNorm(vmin=0.011, vmax=data.max())
     )
 
-    #For debugging purposes: Add a colorbar showing numeric values for the heatmap.
-        #plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
+    # For debugging purposes: Add a colorbar showing numeric values for the heatmap.
+    # plt.colorbar(im, ax=ca_map, orientation='vertical', pad=0.02)
 
+    # Add legend elements
     legend_elements = [
             Patch(facecolor='red', edgecolor='red', label='High Probability'),
             Patch(facecolor='none', edgecolor='black', label='Low Probability')
         ]
     plt.legend(handles=legend_elements, loc='upper right')
-    #plt.plot(lat_matrix[29, 20], lon_matrix[29, 20], markersize=20, color="blue", zorder=2)
+    # Optional: Plot a specific point for debugging
+    # plt.plot(lat_matrix[29, 20], lon_matrix[29, 20], markersize=20, color="blue", zorder=2)
 
-
+    # Set the plot title
     ca_map.set_title(name)
     return ca_map
     #def add_line():
@@ -70,6 +85,8 @@ def graph_data(data=prob, mask=land_mask, name="unamed"):
 if __name__ == "__main__":
     # Build the map and display the result.
     graph_data(name="probability_grid")
-    #graph_data(grid, name="frequency_grid")
-    #print(time_values_grid)
+    # Alternative: graph the original frequency grid instead
+    # graph_data(grid, name="frequency_grid")
+    # Debug: print time values
+    # print(time_values_grid)
     plt.show()

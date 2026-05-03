@@ -2,17 +2,35 @@ import freqency_grid
 import propagate
 import numpy as np
 
-
 def run():
+    """
+    Run the path finding algorithm to simulate bear movement from the highest probability point.
+
+    Returns:
+        list: List of (row, col) tuples representing the path
+    """
     # Load the raw grid and geographic bounds from the input dataset.
     grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix = freqency_grid.get_grid()
     # Propagate the grid values to fill nearby empty cells.
     prob = propagate.propagate(grid, land_mask=land_mask)
 
     def next_position(grid, current_row, current_col, used):
+        """
+        Find the next position with the highest probability adjacent to the current position.
+
+        Args:
+            grid (numpy.ndarray): The probability grid
+            current_row (int): Current row index
+            current_col (int): Current column index
+            used (set): Set of already visited positions
+
+        Returns:
+            tuple: (next_position, updated_used_set)
+        """
         best_val = -1
         best_pos = (current_row, current_col)
         
+        # Check all 8 adjacent cells
         for dr in [-1, 0, 1]:
             for dc in [-1, 0, 1]:
                 if dr == 0 and dc == 0:
@@ -22,20 +40,26 @@ def run():
                     if grid[r, c] > best_val and (r, c) not in used:
                         best_val = grid[r, c]
                         best_pos = (r, c)
-        
+                        # Slightly reduce the value to discourage revisiting
+                        grid[r, c] -= 0.01
+        # Mark position as used (currently commented out)
         used.add(best_pos)
         return best_pos, used
 
+    # Initialize used positions set
     used = set()
 
+    # Find the starting position (maximum probability)
     flat_idx = np.argmax(prob)
     row_idx, col_idx = np.unravel_index(flat_idx, prob.shape)
 
+    # Add starting position to used set
     used.add((row_idx, col_idx))
     pos = (row_idx, col_idx)
     path = [pos]
 
-    for step in range(1000):
+    # Generate path for 10000 steps
+    for step in range(10000):
         pos, used = next_position(prob, pos[0], pos[1], used)
         path.append(pos)
         '''
@@ -43,7 +67,6 @@ def run():
             grid, min_lon, max_lon, min_lat, max_lat, time_values_grid, land_mask, lat_matrix, lon_matrix = freqency_grid.get_grid(step)
             prob = propagate.propagate(grid, land_mask=land_mask)
         '''
-
 
     print(f"Max index: ({row_idx}, {col_idx})")
     print(f"End index: ({pos[0]}, {pos[1]})")

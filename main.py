@@ -2,27 +2,28 @@ import graph_prob as gp
 import cartopy.crs as ccrs
 import path_find as pf
 
+# Create the map visualization
 ca_map = gp.graph_data()
-#print(gp.lat_matrix)
-#print(gp.lon_matrix)
+# Print latitude and longitude matrices for debugging
+# print(gp.lat_matrix)
+# print(gp.lon_matrix)
 
+# Run path finding algorithm to get the bear movement path
 path = pf.run()
 
+# Convert grid indices to geographic coordinates for plotting
 first = True
 x_list = []
 y_list = []
+
 for x, y in path:
-    if first:
-        color = "green"
-        first = False
-    else:
-        color = "blue"
     x_list.append(gp.lon_matrix[x,y])
     y_list.append(gp.lat_matrix[x,y])
 
+# Plot the path on the map
 ca_map.plot(x_list, y_list,
             markersize=3,
-            color=color,
+            color='blue',
             zorder=3,
             transform=ccrs.PlateCarree(), 
             marker='o', 

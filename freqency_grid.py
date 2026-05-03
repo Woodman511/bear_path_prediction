@@ -15,7 +15,7 @@ def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
         return x, y
 
 data = ["BlackBear2012_data.csv", "BlackBear2013_data.csv"]
-def get_grid(index = 0 , grid_size = 100, data_file = data,):
+def get_grid(index = 0 , grid_size = 100, data_file = data):
     #df = pd.DataFrame()
     df = pd.concat([pd.read_csv(f) for f in data_file], ignore_index=True)
 
@@ -59,7 +59,7 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
-        grid[row][col] += 0.5
+        grid[row][col] += 1
         
         tim_ajd.time_difference(user_time, timestamp,index_time=index)
 
