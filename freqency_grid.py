@@ -2,6 +2,17 @@ import numpy as np
 import pandas as pd
 import time_adjusted_grid as tim_ajd
 
+#Convert lat/lon to meters relative to the minimum lat/lon
+METERS_PER_LAT_DEGREE = 111320.0
+def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
+        lat_diff = lat - ref_lat
+        lon_diff = lon - ref_lon
+
+        x = lon_diff * (METERS_PER_LAT_DEGREE * np.cos(np.radians(ref_lat)))
+        y = lat_diff * METERS_PER_LAT_DEGREE
+        
+        return x, y
+
 def get_grid(grid_size = 100, data_file = 'BlackBear2012_data.csv'):
     df = pd.read_csv(data_file)
 
@@ -10,18 +21,6 @@ def get_grid(grid_size = 100, data_file = 'BlackBear2012_data.csv'):
 
     # Parse datetime from the Date and Time columns so we can attach time values to each cell.
     df['DateTime'] = df['Time'].astype(str)
-
-    METERS_PER_LAT_DEGREE = 111320.0
-
-    #Convert lat/lon to meters relative to the minimum lat/lon
-    def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
-        lat_diff = lat - ref_lat
-        lon_diff = lon - ref_lon
-
-        x = lon_diff * (METERS_PER_LAT_DEGREE * np.cos(np.radians(ref_lat)))
-        y = lat_diff * METERS_PER_LAT_DEGREE
-        
-        return x, y
 
     #grid size in meters
     GRID_SIZE = grid_size
