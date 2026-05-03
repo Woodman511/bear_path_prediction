@@ -1,16 +1,16 @@
 import numpy as np
 import pandas as pd
 
-def get_grid():
-    df = pd.read_csv('BrownBear_data.csv')
+def get_grid(grid_size = 200, data_file = 'BrownBear_data.csv'):
+    df = pd.read_csv(data_file)
 
     relx = df['Latitude'].min()
     rely = df['Longitude'].min()
 
+    METERS_PER_LAT_DEGREE = 111320.0
+
     #Convert lat/lon to meters relative to the minimum lat/lon
     def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
-        METERS_PER_LAT_DEGREE = 111320.0
-
         lat_diff = lat - ref_lat
         lon_diff = lon - ref_lon
 
@@ -20,7 +20,7 @@ def get_grid():
         return x, y
 
     #grid size in meters
-    GRID_SIZE = 500 
+    GRID_SIZE = grid_size
     x_list = []
     y_list = []
     for lat, lon in zip(df['Latitude'], df['Longitude']):
@@ -50,11 +50,17 @@ def get_grid():
     print(f"Total points: {grid.sum()}\n")
     print(grid)
 
-    
+    min_lat = relx
+    min_lon = rely
 
-    return grid
+    meters_per_lon_degree = METERS_PER_LAT_DEGREE * np.cos(np.radians(relx))
+    lat_step_deg = GRID_SIZE / METERS_PER_LAT_DEGREE
+    lon_step_deg = GRID_SIZE / meters_per_lon_degree
 
+    max_lat = min_lat + n_rows * lat_step_deg
+    max_lon = min_lon + n_cols * lon_step_deg
 
+    return grid, min_lon, max_lon, min_lat, max_lat
 
 if __name__ == "__main__":
     get_grid()
