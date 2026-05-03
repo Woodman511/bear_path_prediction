@@ -14,7 +14,7 @@ def lat_lon_to_meters(lat, lon, ref_lat, ref_lon):
         return x, y
 
 data = ["BlackBear2012_data.csv", "BlackBear2013_data.csv"]
-def get_grid(index = 0 , grid_size = 100, data_file = data,):
+def get_grid(index = 0 , grid_size = 100, data_file = data, user_input = "6:00"):
     #df = pd.DataFrame()
     df = pd.concat([pd.read_csv(f) for f in data_file], ignore_index=True)
 
@@ -50,18 +50,18 @@ def get_grid(index = 0 , grid_size = 100, data_file = data,):
     time_values_grid = [[[] for _ in range(n_cols)] for _ in range(n_rows)]
 
     #TODO: add input to set the user time that a bear was seen
-    user_time = "6:00"
+    
 
     for x, y, timestamp in zip(x_list, y_list, time_list):
         col = int(x // GRID_SIZE)
         row = int(y // GRID_SIZE)
         col = min(col, n_cols - 1)
         row = min(row, n_rows - 1)
-        grid[row][col] += tim_ajd.time_difference(user_time, timestamp,index_time=index)
+        grid[row][col] += tim_ajd.time_difference(user_input, timestamp,index_time=index)
         #tim_ajd.time_difference(user_time, k, timestamp)
 
-        if tim_ajd.time_difference(user_time, timestamp) > 0:
-            print(tim_ajd.time_difference(user_time, timestamp))
+        if tim_ajd.time_difference(user_input, timestamp) > 0:
+            print(tim_ajd.time_difference(user_input, timestamp))
         #print(timestamp)
 
         #tim_ajd.time_difference(user_time, k, timestamp)

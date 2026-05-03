@@ -3,7 +3,7 @@ import propagate
 import numpy as np
 
 
-def run():
+def run(users_pos_row, users_pos_col):
     # Load the raw grid and geographic bounds from the input dataset.
     grid, min_lon, max_lon, min_lat, max_lat, time_values_grid = freqency_grid.get_grid()
     # Propagate the grid values to fill nearby empty cells.
@@ -28,11 +28,10 @@ def run():
 
     used = set()
 
-    flat_idx = np.argmax(prob)
-    row_idx, col_idx = np.unravel_index(flat_idx, prob.shape)
+    
 
-    used.add((row_idx, col_idx))
-    pos = (row_idx, col_idx)
+    used.add((users_pos_row, users_pos_col))
+    pos = (users_pos_row, users_pos_col)
     path = [pos]
 
     for step in range(1000):
@@ -43,8 +42,8 @@ def run():
             prob = propagate.propagate(grid)
 
 
-    print(f"Max index: ({row_idx}, {col_idx})")
-    print(f"End index: ({pos[0]}, {pos[1]})")
+    #print(f"Max index: ({row_idx}, {col_idx})")
+    #print(f"End index: ({pos[0]}, {pos[1]})")
 
     return path
 
